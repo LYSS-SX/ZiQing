@@ -38,7 +38,7 @@ export function MapPage(): JSX.Element {
       <section className="cta-card glass">
         <div>
           <h2>今日副本 · {current.emoji} {current.name}</h2>
-          <p>热身 → 主线 → 挑战 → 复仇 · 约 8～12 分钟</p>
+          <p>30 题循环挑战 · 答对才前进 · 直到全部通关</p>
         </div>
         <button type="button" className="btn primary lg" onClick={() => setNav('dungeon')}>
           进入今日副本

@@ -148,43 +148,64 @@ export function pickQuestions(
   return result.slice(0, count)
 }
 
+/** Daily dungeon size — fixed 30, retry until all cleared */
+export const DUNGEON_SIZE = 30
+
+/**
+ * Build a 30-question dungeon:
+ * 5 warm-up · 15 main · 5 challenge · 5 revenge/review
+ * Fills from broader pools if a map runs short.
+ */
 export function buildDailyDungeon(all: Question[], data: AppData): string[] {
   const mapId = data.profile.currentMapId
   const reviewIds = Object.values(data.stats)
     .filter((s) => s.inReview)
     .map((s) => s.questionId)
 
-  const warm = pickQuestions(all, mapId, 2, true)
-  // prefer lower tier for warm if possible
   const lower = MAPS.find((m) => m.id === mapId)
   const warmMap = lower && lower.tier > 0 ? MAPS[lower.tier - 1].id : mapId
-  const warmQs = pickQuestions(all, warmMap, 2, true)
-
-  const main = pickQuestions(all, mapId, 5, false, reviewIds)
   const challengeMap =
     lower && lower.tier < 6 ? MAPS[Math.min(6, lower.tier + 1)].id : mapId
-  const challenge = pickQuestions(all, challengeMap, 1, false)
+
+  const warmQs = pickQuestions(all, warmMap, 5, true)
+  const main = pickQuestions(all, mapId, 15, false, reviewIds)
+  const challenge = pickQuestions(all, challengeMap, 5, false)
   const revenge = all
     .filter((q) => reviewIds.includes(q.id))
     .sort(() => Math.random() - 0.5)
-    .slice(0, 2)
+    .slice(0, 5)
 
   const ids = [...warmQs, ...main, ...challenge, ...revenge].map((q) => q.id)
-  // unique preserve order
   const seen = new Set<string>()
   const unique: string[] = []
-  for (const id of ids) {
-    if (seen.has(id)) continue
-    seen.add(id)
-    unique.push(id)
+  for (const qid of ids) {
+    if (seen.has(qid)) continue
+    seen.add(qid)
+    unique.push(qid)
   }
-  while (unique.length < 8) {
-    const extra = pickQuestions(all, mapId, 1, false)
-    if (!extra[0] || seen.has(extra[0].id)) break
-    seen.add(extra[0].id)
-    unique.push(extra[0].id)
+
+  // Fill to 30 from current map, then any map
+  const fillFrom = (pool: Question[]): void => {
+    const shuffled = [...pool].sort(() => Math.random() - 0.5)
+    for (const q of shuffled) {
+      if (unique.length >= DUNGEON_SIZE) break
+      if (seen.has(q.id)) continue
+      seen.add(q.id)
+      unique.push(q.id)
+    }
   }
-  return unique.slice(0, 10)
+  fillFrom(all.filter((q) => q.mapId === mapId))
+  fillFrom(all.filter((q) => q.allowPopup))
+  fillFrom(all)
+
+  return unique.slice(0, DUNGEON_SIZE)
+}
+
+export function dungeonPhase(index: number): string {
+  if (index < 5) return '热身'
+  if (index < 20) return '主线'
+  if (index < 25) return '挑战'
+  return '复仇'
 }
 
 export function boardEntries(

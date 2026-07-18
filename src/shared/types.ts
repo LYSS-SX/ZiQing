@@ -112,6 +112,14 @@ export interface DailyDungeonState {
   questionIds: string[]
   currentIndex: number
   started: boolean
+  /** How many questions cleared correctly in this run (0–30) */
+  clearedCount: number
+  /** Wrong answers on the current question */
+  wrongOnCurrent: number
+  /** Times the player restarted this dungeon today */
+  restartCount: number
+  /** Target size (always 30 for v2) */
+  targetCount: number
 }
 
 export interface AppData {
