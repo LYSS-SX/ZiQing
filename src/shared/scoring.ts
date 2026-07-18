@@ -47,14 +47,15 @@ export function gradeAnswer(q: Question, userInput: string): AnswerResult {
     case 'shadow_read': {
       const target = q.audioText || answersOf(q)[0]
       const score = similarity(input, target)
-      const stars = score >= 0.85 ? 3 : score >= 0.55 ? 2 : score >= 0.3 ? 1 : 0
-      const correct = stars >= 2
+      // more forgiving for beginners / noisy STT
+      const stars = score >= 0.8 ? 3 : score >= 0.45 ? 2 : score >= 0.22 ? 1 : 0
+      const correct = stars >= 2 || normalize(input) === normalize(target)
       return {
         correct,
-        stars,
+        stars: Math.max(stars, correct ? 2 : stars),
         feedback: correct
-          ? `跟读不错！${'⭐'.repeat(stars)}`
-          : `目标句：${target}。你说的是：${input}。再跟读一遍试试！`
+          ? `跟读不错！${'⭐'.repeat(Math.max(stars, 2))}`
+          : `目标：${target}。识别到：${input}。可点「显示中文」看释义，或再跟读/打字。`
       }
     }
     case 'short_speak':

@@ -1,0 +1,196 @@
+.vocab-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vocab-search {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  padding: 12px 14px;
+  font-size: 15px;
+}
+
+.vocab-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr;
+  gap: 14px;
+  min-height: 420px;
+}
+
+.vocab-list {
+  max-height: 62vh;
+  overflow: auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vocab-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr auto;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  border-radius: 12px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.vocab-row:hover,
+.vocab-row.on {
+  background: rgba(45, 212, 191, 0.12);
+  border-color: rgba(94, 234, 212, 0.35);
+}
+
+.vw {
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.vm {
+  color: var(--muted);
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vl {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent-soft);
+  background: rgba(45, 212, 191, 0.12);
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+
+.vocab-detail {
+  position: sticky;
+  top: 12px;
+  align-self: start;
+  min-height: 280px;
+}
+
+.vd-word {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.vd-meta {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.vd-zh {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.vd-ex {
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+  line-height: 1.55;
+}
+
+.vd-ex p {
+  margin: 0 0 6px;
+}
+
+.pad {
+  padding: 12px;
+}
+
+.practice-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.practice-progress .bar {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.practice-progress .bar i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #5eead4, #22d3ee);
+}
+
+.q-prompt-en {
+  margin: -6px 0 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.zh-toggle.on {
+  border-color: rgba(94, 234, 212, 0.55);
+  color: var(--accent-soft);
+}
+
+.soft-hint {
+  font-size: 12px !important;
+  opacity: 0.85;
+}
+
+.choice-zh {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.speech-hint {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(34, 211, 238, 0.1);
+  border: 1px solid rgba(34, 211, 238, 0.25);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.interim {
+  margin: 0;
+  font-size: 13px;
+  color: var(--accent-soft);
+}
+
+.q-explain {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .vocab-layout {
+    grid-template-columns: 1fr;
+  }
+  .vocab-detail {
+    position: static;
+  }
+}

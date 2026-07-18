@@ -23,16 +23,34 @@ export interface Question {
   tier: 0 | 1 | 2 | 3 | 4 | 5 | 6
   type: QuestionType
   prompt: string
+  /** Chinese translation of the prompt for learners */
+  promptZh?: string
   promptLocale?: 'zh' | 'en' | 'bilingual'
   choices?: string[]
+  /** Optional Chinese glosses aligned with choices */
+  choicesZh?: string[]
   answer: string | string[]
   keywords?: string[]
   sampleAnswer?: string
+  sampleAnswerZh?: string
   audioText?: string
   tags: string[]
   allowPopup: boolean
   estSeconds: number
   explanation?: string
+}
+
+export interface VocabEntry {
+  id: string
+  word: string
+  phonetic?: string
+  meaningZh: string
+  pos?: string
+  level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'basic'
+  mapId?: MapId
+  example?: string
+  exampleZh?: string
+  tags?: string[]
 }
 
 export interface UserSettings {
@@ -106,6 +124,7 @@ export type NavId =
   | 'map'
   | 'dungeon'
   | 'practice'
+  | 'vocab'
   | 'review'
   | 'honor'
   | 'revenge'

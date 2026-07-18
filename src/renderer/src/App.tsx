@@ -4,6 +4,7 @@ import { Onboarding } from './features/onboarding/Onboarding'
 import { MapPage } from './features/pages/MapPage'
 import { DungeonPage } from './features/pages/DungeonPage'
 import { PracticePage } from './features/pages/PracticePage'
+import { VocabPage } from './features/pages/VocabPage'
 import { ReviewPage, HonorPage, RevengePage } from './features/pages/BoardsPage'
 import { AchievementsPage } from './features/pages/AchievementsPage'
 import { SettingsPage } from './features/pages/SettingsPage'
@@ -19,6 +20,7 @@ const NAV: { id: NavId; label: string; icon: string }[] = [
   { id: 'map', label: '冒险地图', icon: '🗺️' },
   { id: 'dungeon', label: '今日副本', icon: '📜' },
   { id: 'practice', label: '自由练习', icon: '🎯' },
+  { id: 'vocab', label: '单词表', icon: '📗' },
   { id: 'review', label: '待翻盘', icon: '♻️' },
   { id: 'honor', label: '荣誉墙', icon: '🏆' },
   { id: 'revenge', label: '复仇墙', icon: '🗡️' },
@@ -81,6 +83,7 @@ function Shell(): JSX.Element {
         {nav === 'map' && <MapPage />}
         {nav === 'dungeon' && <DungeonPage />}
         {nav === 'practice' && <PracticePage />}
+        {nav === 'vocab' && <VocabPage />}
         {nav === 'review' && <ReviewPage />}
         {nav === 'honor' && <HonorPage />}
         {nav === 'revenge' && <RevengePage />}

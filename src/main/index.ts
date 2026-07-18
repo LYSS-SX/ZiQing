@@ -6,7 +6,9 @@ import {
   Tray,
   Menu,
   nativeImage,
-  screen
+  screen,
+  session,
+  systemPreferences
 } from 'electron'
 import { join } from 'path'
 import Store from 'electron-store'
@@ -25,6 +27,26 @@ let popupTimer: NodeJS.Timeout | null = null
 let snoozeUntil = 0
 
 const isDev = !app.isPackaged
+
+// Help Chromium speech + media features on Windows
+app.commandLine.appendSwitch('enable-features', 'WebSpeechAPI,WebSpeechRecognition')
+app.commandLine.appendSwitch('enable-speech-dispatcher')
+
+function setupMediaPermissions(): void {
+  session.defaultSession.setPermissionRequestHandler((_wc, permission, callback) => {
+    const allow = [
+      'media',
+      'mediaKeySystem',
+      'notifications',
+      'clipboard-sanitized-write',
+      'accessibility-events'
+    ]
+    callback(allow.includes(permission))
+  })
+  session.defaultSession.setPermissionCheckHandler((_wc, permission) => {
+    return permission === 'media' || permission === 'notifications'
+  })
+}
 
 function getData(): AppData {
   const data = store.store
@@ -267,7 +289,20 @@ function registerIpc(): void {
   ipcMain.handle('app:getPath', () => app.getPath('userData'))
 }
 
-app.whenReady().then(() => {
+app.whenReady().then(async () => {
+  setupMediaPermissions()
+  // Windows: prompt for mic if possible (no-op if unsupported)
+  try {
+    if (process.platform === 'win32' && systemPreferences.getMediaAccessStatus) {
+      const status = systemPreferences.getMediaAccessStatus('microphone')
+      if (status !== 'granted' && systemPreferences.askForMediaAccess) {
+        await systemPreferences.askForMediaAccess('microphone')
+      }
+    }
+  } catch {
+    /* ignore */
+  }
+
   registerIpc()
   createMainWindow()
   createTray()
