@@ -1,0 +1,6607 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "yc_0001",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「苹果」用英语怎么说？",
+      "choices": [
+        "car",
+        "dog",
+        "apple",
+        "banana"
+      ],
+      "answer": "apple",
+      "audioText": "apple",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "apple = 苹果"
+    },
+    {
+      "id": "yc_0002",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：apple（苹果）",
+      "answer": "apple",
+      "audioText": "apple",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 apple"
+    },
+    {
+      "id": "yc_0003",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：apple",
+      "choices": [
+        "汽车",
+        "猫",
+        "香蕉",
+        "苹果"
+      ],
+      "answer": "苹果",
+      "audioText": "apple",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0004",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「猫」用英语怎么说？",
+      "choices": [
+        "milk",
+        "cat",
+        "pen",
+        "bus"
+      ],
+      "answer": "cat",
+      "audioText": "cat",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "cat = 猫"
+    },
+    {
+      "id": "yc_0005",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：cat（猫）",
+      "answer": "cat",
+      "audioText": "cat",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 cat"
+    },
+    {
+      "id": "yc_0006",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：cat",
+      "choices": [
+        "狗",
+        "苹果",
+        "汽车",
+        "猫"
+      ],
+      "answer": "猫",
+      "audioText": "cat",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0007",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「狗」用英语怎么说？",
+      "choices": [
+        "fish",
+        "book",
+        "dog",
+        "red"
+      ],
+      "answer": "dog",
+      "audioText": "dog",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "dog = 狗"
+    },
+    {
+      "id": "yc_0008",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：dog（狗）",
+      "answer": "dog",
+      "audioText": "dog",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 dog"
+    },
+    {
+      "id": "yc_0009",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：dog",
+      "choices": [
+        "苹果",
+        "猫",
+        "汽车",
+        "狗"
+      ],
+      "answer": "狗",
+      "audioText": "dog",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0010",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「太阳」用英语怎么说？",
+      "choices": [
+        "sun",
+        "cup",
+        "moon",
+        "hat"
+      ],
+      "answer": "sun",
+      "audioText": "sun",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "sun = 太阳"
+    },
+    {
+      "id": "yc_0011",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：sun（太阳）",
+      "answer": "sun",
+      "audioText": "sun",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 sun"
+    },
+    {
+      "id": "yc_0012",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：sun",
+      "choices": [
+        "猫",
+        "太阳",
+        "汽车",
+        "苹果"
+      ],
+      "answer": "太阳",
+      "audioText": "sun",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0013",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「牛奶」用英语怎么说？",
+      "choices": [
+        "milk",
+        "tree",
+        "ball",
+        "shoe"
+      ],
+      "answer": "milk",
+      "audioText": "milk",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "milk = 牛奶"
+    },
+    {
+      "id": "yc_0014",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：milk（牛奶）",
+      "answer": "milk",
+      "audioText": "milk",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 milk"
+    },
+    {
+      "id": "yc_0015",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：milk",
+      "choices": [
+        "牛奶",
+        "猫",
+        "汽车",
+        "苹果"
+      ],
+      "answer": "牛奶",
+      "audioText": "milk",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0016",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「红色」用英语怎么说？",
+      "choices": [
+        "red",
+        "blue",
+        "one",
+        "two"
+      ],
+      "answer": "red",
+      "audioText": "red",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "red = 红色"
+    },
+    {
+      "id": "yc_0017",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：red（红色）",
+      "answer": "red",
+      "audioText": "red",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 red"
+    },
+    {
+      "id": "yc_0018",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：red",
+      "choices": [
+        "猫",
+        "红色",
+        "汽车",
+        "苹果"
+      ],
+      "answer": "红色",
+      "audioText": "red",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0019",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「一」用英语怎么说？",
+      "choices": [
+        "big",
+        "one",
+        "small",
+        "run"
+      ],
+      "answer": "one",
+      "audioText": "one",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "one = 一"
+    },
+    {
+      "id": "yc_0020",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：one（一）",
+      "answer": "one",
+      "audioText": "one",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 one"
+    },
+    {
+      "id": "yc_0021",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：one",
+      "choices": [
+        "苹果",
+        "汽车",
+        "猫",
+        "一"
+      ],
+      "answer": "一",
+      "audioText": "one",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0022",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「你好」用英语怎么说？",
+      "choices": [
+        "bye",
+        "jump",
+        "sit",
+        "hello"
+      ],
+      "answer": "hello",
+      "audioText": "hello",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "hello = 你好"
+    },
+    {
+      "id": "yc_0023",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：hello（你好）",
+      "answer": "hello",
+      "audioText": "hello",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 hello"
+    },
+    {
+      "id": "yc_0024",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：hello",
+      "choices": [
+        "你好",
+        "苹果",
+        "猫",
+        "汽车"
+      ],
+      "answer": "你好",
+      "audioText": "hello",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0025",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「书」用英语怎么说？",
+      "choices": [
+        "fish",
+        "book",
+        "car",
+        "rain"
+      ],
+      "answer": "book",
+      "audioText": "book",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "book = 书"
+    },
+    {
+      "id": "yc_0026",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：book（书）",
+      "answer": "book",
+      "audioText": "book",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 book"
+    },
+    {
+      "id": "yc_0027",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：book",
+      "choices": [
+        "猫",
+        "书",
+        "汽车",
+        "苹果"
+      ],
+      "answer": "书",
+      "audioText": "book",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0028",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「水」用英语怎么说？",
+      "choices": [
+        "desk",
+        "door",
+        "fire",
+        "water"
+      ],
+      "answer": "water",
+      "audioText": "water",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "water = 水"
+    },
+    {
+      "id": "yc_0029",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：water（水）",
+      "answer": "water",
+      "audioText": "water",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 water"
+    },
+    {
+      "id": "yc_0030",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：water",
+      "choices": [
+        "水",
+        "猫",
+        "汽车",
+        "苹果"
+      ],
+      "answer": "水",
+      "audioText": "water",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0031",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「鸟」用英语怎么说？",
+      "choices": [
+        "ship",
+        "bird",
+        "cake",
+        "bed"
+      ],
+      "answer": "bird",
+      "audioText": "bird",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "bird = 鸟"
+    },
+    {
+      "id": "yc_0032",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：bird（鸟）",
+      "answer": "bird",
+      "audioText": "bird",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 bird"
+    },
+    {
+      "id": "yc_0033",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：bird",
+      "choices": [
+        "猫",
+        "苹果",
+        "鸟",
+        "汽车"
+      ],
+      "answer": "鸟",
+      "audioText": "bird",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0034",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「鱼」用英语怎么说？",
+      "choices": [
+        "star",
+        "lion",
+        "bag",
+        "fish"
+      ],
+      "answer": "fish",
+      "audioText": "fish",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "fish = 鱼"
+    },
+    {
+      "id": "yc_0035",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：fish（鱼）",
+      "answer": "fish",
+      "audioText": "fish",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 fish"
+    },
+    {
+      "id": "yc_0036",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：fish",
+      "choices": [
+        "汽车",
+        "猫",
+        "苹果",
+        "鱼"
+      ],
+      "answer": "鱼",
+      "audioText": "fish",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0037",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「妈妈」用英语怎么说？",
+      "choices": [
+        "bag",
+        "mom",
+        "dad",
+        "hat"
+      ],
+      "answer": "mom",
+      "audioText": "mom",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "mom = 妈妈"
+    },
+    {
+      "id": "yc_0038",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：mom（妈妈）",
+      "answer": "mom",
+      "audioText": "mom",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 mom"
+    },
+    {
+      "id": "yc_0039",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：mom",
+      "choices": [
+        "猫",
+        "苹果",
+        "妈妈",
+        "汽车"
+      ],
+      "answer": "妈妈",
+      "audioText": "mom",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0040",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「爸爸」用英语怎么说？",
+      "choices": [
+        "dad",
+        "mom",
+        "pen",
+        "cup"
+      ],
+      "answer": "dad",
+      "audioText": "dad",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "dad = 爸爸"
+    },
+    {
+      "id": "yc_0041",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：dad（爸爸）",
+      "answer": "dad",
+      "audioText": "dad",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 dad"
+    },
+    {
+      "id": "yc_0042",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：dad",
+      "choices": [
+        "爸爸",
+        "苹果",
+        "猫",
+        "汽车"
+      ],
+      "answer": "爸爸",
+      "audioText": "dad",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0043",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「球」用英语怎么说？",
+      "choices": [
+        "soup",
+        "key",
+        "rain",
+        "ball"
+      ],
+      "answer": "ball",
+      "audioText": "ball",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "ball = 球"
+    },
+    {
+      "id": "yc_0044",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：ball（球）",
+      "answer": "ball",
+      "audioText": "ball",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 ball"
+    },
+    {
+      "id": "yc_0045",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：ball",
+      "choices": [
+        "球",
+        "汽车",
+        "猫",
+        "苹果"
+      ],
+      "answer": "球",
+      "audioText": "ball",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0046",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「眼睛」用英语怎么说？",
+      "choices": [
+        "hand",
+        "eye",
+        "ear",
+        "nose"
+      ],
+      "answer": "eye",
+      "audioText": "eye",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "eye = 眼睛"
+    },
+    {
+      "id": "yc_0047",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：eye（眼睛）",
+      "answer": "eye",
+      "audioText": "eye",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 eye"
+    },
+    {
+      "id": "yc_0048",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：eye",
+      "choices": [
+        "苹果",
+        "汽车",
+        "眼睛",
+        "猫"
+      ],
+      "answer": "眼睛",
+      "audioText": "eye",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0049",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「手」用英语怎么说？",
+      "choices": [
+        "foot",
+        "arm",
+        "hand",
+        "leg"
+      ],
+      "answer": "hand",
+      "audioText": "hand",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "hand = 手"
+    },
+    {
+      "id": "yc_0050",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：hand（手）",
+      "answer": "hand",
+      "audioText": "hand",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 hand"
+    },
+    {
+      "id": "yc_0051",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：hand",
+      "choices": [
+        "手",
+        "苹果",
+        "汽车",
+        "猫"
+      ],
+      "answer": "手",
+      "audioText": "hand",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0052",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「开心的」用英语怎么说？",
+      "choices": [
+        "hot",
+        "cold",
+        "happy",
+        "sad"
+      ],
+      "answer": "happy",
+      "audioText": "happy",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "happy = 开心的"
+    },
+    {
+      "id": "yc_0053",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：happy（开心的）",
+      "answer": "happy",
+      "audioText": "happy",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 happy"
+    },
+    {
+      "id": "yc_0054",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：happy",
+      "choices": [
+        "猫",
+        "苹果",
+        "开心的",
+        "汽车"
+      ],
+      "answer": "开心的",
+      "audioText": "happy",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0055",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「大的」用英语怎么说？",
+      "choices": [
+        "small",
+        "big",
+        "tall",
+        "thin"
+      ],
+      "answer": "big",
+      "audioText": "big",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "big = 大的"
+    },
+    {
+      "id": "yc_0056",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：big（大的）",
+      "answer": "big",
+      "audioText": "big",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 big"
+    },
+    {
+      "id": "yc_0057",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：big",
+      "choices": [
+        "汽车",
+        "苹果",
+        "大的",
+        "猫"
+      ],
+      "answer": "大的",
+      "audioText": "big",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "yc_0058",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "word_choose",
+      "prompt": "「跑」用英语怎么说？",
+      "choices": [
+        "sleep",
+        "eat",
+        "walk",
+        "run"
+      ],
+      "answer": "run",
+      "audioText": "run",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20,
+      "explanation": "run = 跑"
+    },
+    {
+      "id": "yc_0059",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "shadow_read",
+      "prompt": "跟读单词：run（跑）",
+      "answer": "run",
+      "audioText": "run",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "跟读 run"
+    },
+    {
+      "id": "yc_0060",
+      "mapId": "yayacun",
+      "tier": 0,
+      "type": "listen_choose",
+      "prompt": "听一听（请看英文，想象读音），选出中文意思：run",
+      "choices": [
+        "汽车",
+        "跑",
+        "猫",
+        "苹果"
+      ],
+      "answer": "跑",
+      "audioText": "run",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 20
+    },
+    {
+      "id": "wt_0061",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：图书馆",
+      "choices": [
+        "garage",
+        "airport",
+        "kitchen",
+        "library"
+      ],
+      "answer": "library",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "library — 图书馆"
+    },
+    {
+      "id": "wt_0062",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "protect",
+        "practice",
+        "practise"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0063",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：library",
+      "answer": "library",
+      "audioText": "library",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0064",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：老师",
+      "choices": [
+        "teacher",
+        "student",
+        "driver",
+        "doctor"
+      ],
+      "answer": "teacher",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "teacher — 老师"
+    },
+    {
+      "id": "wt_0065",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practise",
+        "practice",
+        "practice",
+        "protect"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0066",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：teacher",
+      "answer": "teacher",
+      "audioText": "teacher",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0067",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：家庭作业",
+      "choices": [
+        "holiday",
+        "hobby",
+        "homework",
+        "hospital"
+      ],
+      "answer": "homework",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "homework — 家庭作业"
+    },
+    {
+      "id": "wt_0068",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "practise",
+        "practice",
+        "protect"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0069",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：homework",
+      "answer": "homework",
+      "audioText": "homework",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0070",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：早餐",
+      "choices": [
+        "breakfast",
+        "lunch",
+        "snack",
+        "dinner"
+      ],
+      "answer": "breakfast",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "breakfast — 早餐"
+    },
+    {
+      "id": "wt_0071",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "practice",
+        "practise",
+        "protect"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0072",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：breakfast",
+      "answer": "breakfast",
+      "audioText": "breakfast",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0073",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：天气",
+      "choices": [
+        "weather",
+        "window",
+        "whether",
+        "winter"
+      ],
+      "answer": "weather",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "weather — 天气"
+    },
+    {
+      "id": "wt_0074",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "practice",
+        "protect",
+        "practise"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0075",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：weather",
+      "answer": "weather",
+      "audioText": "weather",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0076",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：美丽的",
+      "choices": [
+        "brave",
+        "beautiful",
+        "boring",
+        "busy"
+      ],
+      "answer": "beautiful",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "beautiful — 美丽的"
+    },
+    {
+      "id": "wt_0077",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practise",
+        "protect",
+        "practice",
+        "practice"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0078",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：beautiful",
+      "answer": "beautiful",
+      "audioText": "beautiful",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0079",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：重要的",
+      "choices": [
+        "improve",
+        "important",
+        "impossible",
+        "impatient"
+      ],
+      "answer": "important",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "important — 重要的"
+    },
+    {
+      "id": "wt_0080",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "practise",
+        "protect",
+        "practice"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0081",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：important",
+      "answer": "important",
+      "audioText": "important",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0082",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：因为",
+      "choices": [
+        "because",
+        "before",
+        "between",
+        "behind"
+      ],
+      "answer": "because",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "because — 因为"
+    },
+    {
+      "id": "wt_0083",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practise",
+        "practice",
+        "protect",
+        "practice"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0084",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：because",
+      "answer": "because",
+      "audioText": "because",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0085",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：朋友",
+      "choices": [
+        "friend",
+        "father",
+        "forest",
+        "family"
+      ],
+      "answer": "friend",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "friend — 朋友"
+    },
+    {
+      "id": "wt_0086",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "protect",
+        "practise",
+        "practice",
+        "practice"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0087",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：friend",
+      "answer": "friend",
+      "audioText": "friend",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0088",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：学校",
+      "choices": [
+        "station",
+        "school",
+        "store",
+        "street"
+      ],
+      "answer": "school",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "school — 学校"
+    },
+    {
+      "id": "wt_0089",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practise",
+        "protect",
+        "practice",
+        "practice"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0090",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：school",
+      "answer": "school",
+      "audioText": "school",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0091",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：有趣的",
+      "choices": [
+        "interesting",
+        "inside",
+        "including",
+        "incredible"
+      ],
+      "answer": "interesting",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "interesting — 有趣的"
+    },
+    {
+      "id": "wt_0092",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "protect",
+        "practice",
+        "practise"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0093",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：interesting",
+      "answer": "interesting",
+      "audioText": "interesting",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0094",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：小心地",
+      "choices": [
+        "career",
+        "careful",
+        "carefully",
+        "careless"
+      ],
+      "answer": "carefully",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "carefully — 小心地"
+    },
+    {
+      "id": "wt_0095",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "practice",
+        "practise",
+        "protect"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0096",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：carefully",
+      "answer": "carefully",
+      "audioText": "carefully",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0097",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：环境",
+      "choices": [
+        "equipment",
+        "event",
+        "environment",
+        "entertainment"
+      ],
+      "answer": "environment",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "environment — 环境"
+    },
+    {
+      "id": "wt_0098",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "protect",
+        "practise",
+        "practice",
+        "practice"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0099",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：environment",
+      "answer": "environment",
+      "audioText": "environment",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0100",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：挑战",
+      "choices": [
+        "challenge",
+        "chance",
+        "channel",
+        "change"
+      ],
+      "answer": "challenge",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "challenge — 挑战"
+    },
+    {
+      "id": "wt_0101",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "protect",
+        "practice",
+        "practise",
+        "practice"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0102",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：challenge",
+      "answer": "challenge",
+      "audioText": "challenge",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0103",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：练习",
+      "choices": [
+        "permit",
+        "perfect",
+        "perform",
+        "practice"
+      ],
+      "answer": "practice",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "practice — 练习"
+    },
+    {
+      "id": "wt_0104",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "practise",
+        "perfect",
+        "protect"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0105",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：practice",
+      "answer": "practice",
+      "audioText": "practice",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0106",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：词汇",
+      "choices": [
+        "vocabulary",
+        "valuable",
+        "vacation",
+        "various"
+      ],
+      "answer": "vocabulary",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "vocabulary — 词汇"
+    },
+    {
+      "id": "wt_0107",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "protect",
+        "practice",
+        "practice",
+        "practise"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0108",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：vocabulary",
+      "answer": "vocabulary",
+      "audioText": "vocabulary",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0109",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：句子",
+      "choices": [
+        "service",
+        "sentence",
+        "several",
+        "serious"
+      ],
+      "answer": "sentence",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "sentence — 句子"
+    },
+    {
+      "id": "wt_0110",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "protect",
+        "practice",
+        "practise"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0111",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：sentence",
+      "answer": "sentence",
+      "audioText": "sentence",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0112",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：语法",
+      "choices": [
+        "grandfather",
+        "graduate",
+        "grateful",
+        "grammar"
+      ],
+      "answer": "grammar",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "grammar — 语法"
+    },
+    {
+      "id": "wt_0113",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practise",
+        "practice",
+        "practice",
+        "protect"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0114",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：grammar",
+      "answer": "grammar",
+      "audioText": "grammar",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0115",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：发音",
+      "choices": [
+        "produce",
+        "pronounce",
+        "promise",
+        "protect"
+      ],
+      "answer": "pronounce",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "pronounce — 发音"
+    },
+    {
+      "id": "wt_0116",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practice",
+        "protect",
+        "practice",
+        "practise"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0117",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：pronounce",
+      "answer": "pronounce",
+      "audioText": "pronounce",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0118",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "word_choose",
+      "prompt": "选择正确英文：对话",
+      "choices": [
+        "convention",
+        "connection",
+        "condition",
+        "conversation"
+      ],
+      "answer": "conversation",
+      "tags": [
+        "word"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25,
+      "explanation": "conversation — 对话"
+    },
+    {
+      "id": "wt_0119",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "填空：I need to ______ English every day.（练习）",
+      "choices": [
+        "practise",
+        "practice",
+        "practice",
+        "protect"
+      ],
+      "answer": "practice",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30,
+      "explanation": "practice English"
+    },
+    {
+      "id": "wt_0120",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "shadow_read",
+      "prompt": "跟读：conversation",
+      "answer": "conversation",
+      "audioText": "conversation",
+      "tags": [
+        "word",
+        "speaking"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "wt_0121",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：I go to the ______ to borrow books.",
+      "choices": [
+        "library",
+        "kitchen",
+        "airport",
+        "garage"
+      ],
+      "answer": "library",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0122",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：My ______ gives us homework.",
+      "choices": [
+        "tourist",
+        "teacher",
+        "pilot",
+        "driver"
+      ],
+      "answer": "teacher",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0123",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：I eat ______ at 7 a.m.",
+      "choices": [
+        "midnight",
+        "dinner",
+        "dessert",
+        "breakfast"
+      ],
+      "answer": "breakfast",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0124",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：She is my best ______.",
+      "choices": [
+        "frame",
+        "fridge",
+        "forest",
+        "friend"
+      ],
+      "answer": "friend",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0125",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：Please speak more ______.",
+      "choices": [
+        "capital",
+        "camera",
+        "carefully",
+        "careless"
+      ],
+      "answer": "carefully",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0126",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：Protecting the ______ is important.",
+      "choices": [
+        "elephant",
+        "environment",
+        "elevator",
+        "engine"
+      ],
+      "answer": "environment",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0127",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：This question is a real ______.",
+      "choices": [
+        "chapter",
+        "chicken",
+        "channel",
+        "challenge"
+      ],
+      "answer": "challenge",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0128",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：Learning ______ takes time.",
+      "choices": [
+        "vocabulary",
+        "vehicle",
+        "village",
+        "vacation"
+      ],
+      "answer": "vocabulary",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0129",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：Write a complete ______.",
+      "choices": [
+        "sentence",
+        "season",
+        "service",
+        "secret"
+      ],
+      "answer": "sentence",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "wt_0130",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "fill_blank",
+      "prompt": "选词填空：English ______ helps you speak correctly.",
+      "choices": [
+        "grammar",
+        "grandma",
+        "garage",
+        "galaxy"
+      ],
+      "answer": "grammar",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0131",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "朋友说：How are you today? 你应选：",
+      "choices": [
+        "Goodbye forever.",
+        "I'm fine, thank you.",
+        "I am 12 years old.",
+        "It is a pen."
+      ],
+      "answer": "I'm fine, thank you.",
+      "sampleAnswer": "I'm fine, thank you. And you?",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0132",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：I'm fine, thank you.",
+      "answer": "I'm fine, thank you.",
+      "audioText": "I'm fine, thank you.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0133",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "在咖啡店，服务员问：What would you like? 你说：",
+      "choices": [
+        "See you tomorrow.",
+        "My name is Tom.",
+        "I live in Beijing.",
+        "I'd like a latte, please."
+      ],
+      "answer": "I'd like a latte, please.",
+      "sampleAnswer": "I'd like a latte, please.",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0134",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：I'd like a latte, please.",
+      "answer": "I'd like a latte, please.",
+      "audioText": "I'd like a latte, please.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0135",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "问路：Excuse me, where is the subway? 合适回答：",
+      "choices": [
+        "Go straight and turn left.",
+        "It is Monday.",
+        "Open your book.",
+        "I like apples."
+      ],
+      "answer": "Go straight and turn left.",
+      "sampleAnswer": "Go straight and turn left.",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0136",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：Go straight and turn left.",
+      "answer": "Go straight and turn left.",
+      "audioText": "Go straight and turn left.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0137",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "电话里对方说：May I speak to Anna? 你说：",
+      "choices": [
+        "How much is it?",
+        "Nice to meet you.",
+        "I am a student.",
+        "Speaking. / This is Anna."
+      ],
+      "answer": "Speaking. / This is Anna.",
+      "sampleAnswer": "Speaking. / This is Anna.",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0138",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：Speaking. / This is Anna.",
+      "answer": "Speaking. / This is Anna.",
+      "audioText": "Speaking. / This is Anna.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0139",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "迟到道歉，你说：",
+      "choices": [
+        "Give me money.",
+        "Who are you?",
+        "I hate this class.",
+        "Sorry I'm late. There was traffic."
+      ],
+      "answer": "Sorry I'm late. There was traffic.",
+      "sampleAnswer": "Sorry I'm late. There was traffic.",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0140",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：Sorry I'm late. There was traffic.",
+      "answer": "Sorry I'm late. There was traffic.",
+      "audioText": "Sorry I'm late. There was traffic.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0141",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "点餐结束，服务员说：Anything else? 你说：",
+      "choices": [
+        "I am tall.",
+        "What is your job?",
+        "No, that's all. Thanks.",
+        "Close the door."
+      ],
+      "answer": "No, that's all. Thanks.",
+      "sampleAnswer": "No, that's all. Thanks.",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0142",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：No, that's all. Thanks.",
+      "answer": "No, that's all. Thanks.",
+      "audioText": "No, that's all. Thanks.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0143",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "朋友邀请：Do you want to watch a movie? 委婉拒绝：",
+      "choices": [
+        "I never sleep.",
+        "I'd love to, but I have homework.",
+        "Buy me a car.",
+        "You are wrong."
+      ],
+      "answer": "I'd love to, but I have homework.",
+      "sampleAnswer": "I'd love to, but I have homework.",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0144",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：I'd love to, but I have homework.",
+      "answer": "I'd love to, but I have homework.",
+      "audioText": "I'd love to, but I have homework.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0145",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "商店：Can I try this on? 店员合适回答：",
+      "choices": [
+        "It is raining.",
+        "I am hungry.",
+        "Sure, the fitting room is over there.",
+        "Call the police."
+      ],
+      "answer": "Sure, the fitting room is over there.",
+      "sampleAnswer": "Sure, the fitting room is over there.",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0146",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：Sure, the fitting room is over there.",
+      "answer": "Sure, the fitting room is over there.",
+      "audioText": "Sure, the fitting room is over there.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0147",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "上课迟到进教室，对老师说：",
+      "choices": [
+        "May I come in?",
+        "Where is my money?",
+        "I quit.",
+        "Turn off the light."
+      ],
+      "answer": "May I come in?",
+      "sampleAnswer": "May I come in?",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0148",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：May I come in?",
+      "answer": "May I come in?",
+      "audioText": "May I come in?",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0149",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "感谢帮助后，对方说 You are welcome. 你可再回应：",
+      "choices": [
+        "Stop talking.",
+        "Have a nice day!",
+        "I am a banana.",
+        "Give me five."
+      ],
+      "answer": "Have a nice day!",
+      "sampleAnswer": "Have a nice day!",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "dv_0150",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "shadow_read",
+      "prompt": "情景跟读：Have a nice day!",
+      "answer": "Have a nice day!",
+      "audioText": "Have a nice day!",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "dv_0151",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：What time is it? 你选：",
+      "choices": [
+        "I am a chair.",
+        "Close your eyes.",
+        "Blue is color.",
+        "It's three o'clock."
+      ],
+      "answer": "It's three o'clock.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0152",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：How much is this? 你选：",
+      "choices": [
+        "I am a chair.",
+        "Blue is color.",
+        "It's ten dollars.",
+        "Close your eyes."
+      ],
+      "answer": "It's ten dollars.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0153",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：Where do you live? 你选：",
+      "choices": [
+        "Blue is color.",
+        "I am a chair.",
+        "I live near the park.",
+        "Close your eyes."
+      ],
+      "answer": "I live near the park.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0154",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：Can you help me? 你选：",
+      "choices": [
+        "Close your eyes.",
+        "Of course, what do you need?",
+        "I am a chair.",
+        "Blue is color."
+      ],
+      "answer": "Of course, what do you need?",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0155",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：Nice to meet you. 你选：",
+      "choices": [
+        "I am a chair.",
+        "Nice to meet you too.",
+        "Close your eyes.",
+        "Blue is color."
+      ],
+      "answer": "Nice to meet you too.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0156",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：Have a good weekend! 你选：",
+      "choices": [
+        "I am a chair.",
+        "You too!",
+        "Close your eyes.",
+        "Blue is color."
+      ],
+      "answer": "You too!",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0157",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：What is your favorite food? 你选：",
+      "choices": [
+        "Close your eyes.",
+        "I like noodles.",
+        "I am a chair.",
+        "Blue is color."
+      ],
+      "answer": "I like noodles.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0158",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：Are you free tonight? 你选：",
+      "choices": [
+        "Sorry, I am busy tonight.",
+        "Close your eyes.",
+        "I am a chair.",
+        "Blue is color."
+      ],
+      "answer": "Sorry, I am busy tonight.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0159",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：Could you repeat that? 你选：",
+      "choices": [
+        "I am a chair.",
+        "Sure. I said the meeting is at five.",
+        "Close your eyes.",
+        "Blue is color."
+      ],
+      "answer": "Sure. I said the meeting is at five.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "dv_0160",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "dialogue_next",
+      "prompt": "对方说：Thanks for your help. 你选：",
+      "choices": [
+        "Close your eyes.",
+        "I am a chair.",
+        "You're welcome.",
+        "Blue is color."
+      ],
+      "answer": "You're welcome.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "cp_0161",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "用英语简单介绍你的专业/学校（至少 5 个英文词）。关键词可包含 student, study, school",
+      "answer": "I am a student. I study English at school and I like learning new words.",
+      "keywords": [
+        "student",
+        "study",
+        "school",
+        "like",
+        "learn",
+        "university",
+        "college",
+        "major"
+      ],
+      "sampleAnswer": "I am a student. I study English at school and I like learning new words.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 45
+    },
+    {
+      "id": "cp_0162",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "描述你理想的一天（短说）。可提到 morning, friends, happy",
+      "answer": "In the morning I read books. After class I meet friends. I feel happy.",
+      "keywords": [
+        "morning",
+        "friend",
+        "happy",
+        "day",
+        "like",
+        "usually",
+        "after"
+      ],
+      "sampleAnswer": "In the morning I read books. After class I meet friends. I feel happy.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 45
+    },
+    {
+      "id": "cp_0163",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "如何约同学一起自习？说出你的邀请句。",
+      "answer": "Are you free this afternoon? Shall we study together in the library?",
+      "keywords": [
+        "study",
+        "together",
+        "library",
+        "free",
+        "join",
+        "shall",
+        "would"
+      ],
+      "sampleAnswer": "Are you free this afternoon? Shall we study together in the library?",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 45
+    },
+    {
+      "id": "cp_0164",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "谈论天气与心情（短说）。",
+      "answer": "Today the weather is sunny and warm. I feel energetic.",
+      "keywords": [
+        "weather",
+        "sunny",
+        "rain",
+        "feel",
+        "today",
+        "cold",
+        "warm"
+      ],
+      "sampleAnswer": "Today the weather is sunny and warm. I feel energetic.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 45
+    },
+    {
+      "id": "cp_0165",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "介绍一个你喜欢的爱好。",
+      "answer": "My hobby is reading because it is interesting and relaxing.",
+      "keywords": [
+        "hobby",
+        "like",
+        "because",
+        "interesting",
+        "play",
+        "read",
+        "music"
+      ],
+      "sampleAnswer": "My hobby is reading because it is interesting and relaxing.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 45
+    },
+    {
+      "id": "cp_0166",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "word_choose",
+      "prompt": "在图书馆应保持？",
+      "choices": [
+        "quiet",
+        "angry",
+        "hungry",
+        "noisy"
+      ],
+      "answer": "quiet",
+      "sampleAnswer": "Keep quiet in the library.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "cp_0167",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "word_choose",
+      "prompt": "请假应对老师说？",
+      "choices": [
+        "You are late.",
+        "I quit school.",
+        "Could I ask for leave?",
+        "Give me A+"
+      ],
+      "answer": "Could I ask for leave?",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "cp_0168",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "word_choose",
+      "prompt": "小组讨论时好的做法是？",
+      "choices": [
+        "Sleep on desk",
+        "Only play phone",
+        "Listen and share ideas",
+        "Interrupt rudely"
+      ],
+      "answer": "Listen and share ideas",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "cp_0169",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "word_choose",
+      "prompt": "借笔记礼貌说法？",
+      "choices": [
+        "I hate notes.",
+        "Your notes are mine.",
+        "Give me now!",
+        "Could I borrow your notes?"
+      ],
+      "answer": "Could I borrow your notes?",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "cp_0170",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "word_choose",
+      "prompt": "约自习地点常见？",
+      "choices": [
+        "basement only",
+        "runway",
+        "library",
+        "volcano"
+      ],
+      "answer": "library",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "cp_0171",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "Introduce your favorite subject in English.",
+      "answer": "I like English because it is useful. I practice speaking every day.",
+      "keywords": [
+        "like",
+        "because",
+        "practice",
+        "every",
+        "student",
+        "school",
+        "learn"
+      ],
+      "sampleAnswer": "I like English because it is useful. I practice speaking every day with friends.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "cp_0172",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "Talk about your daily routine briefly.",
+      "answer": "I like English because it is useful. I practice speaking every day.",
+      "keywords": [
+        "like",
+        "because",
+        "practice",
+        "every",
+        "student",
+        "school",
+        "learn"
+      ],
+      "sampleAnswer": "I like English because it is useful. I practice speaking every day with friends.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "cp_0173",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "Describe your classroom in a few sentences.",
+      "answer": "I like English because it is useful. I practice speaking every day.",
+      "keywords": [
+        "like",
+        "because",
+        "practice",
+        "every",
+        "student",
+        "school",
+        "learn"
+      ],
+      "sampleAnswer": "I like English because it is useful. I practice speaking every day with friends.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "cp_0174",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "What club would you join and why?",
+      "answer": "I like English because it is useful. I practice speaking every day.",
+      "keywords": [
+        "like",
+        "because",
+        "practice",
+        "every",
+        "student",
+        "school",
+        "learn"
+      ],
+      "sampleAnswer": "I like English because it is useful. I practice speaking every day with friends.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "cp_0175",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "How do you prepare for a presentation?",
+      "answer": "I like English because it is useful. I practice speaking every day.",
+      "keywords": [
+        "like",
+        "because",
+        "practice",
+        "every",
+        "student",
+        "school",
+        "learn"
+      ],
+      "sampleAnswer": "I like English because it is useful. I practice speaking every day with friends.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "ef_0176",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "topic_card",
+      "prompt": "Describe a skill you want to learn. Why?",
+      "answer": "I want to learn public speaking because it is helpful for my future career. I will practice every week.",
+      "keywords": [
+        "skill",
+        "learn",
+        "because",
+        "practice",
+        "future",
+        "helpful",
+        "interested"
+      ],
+      "sampleAnswer": "I want to learn public speaking because it is helpful for my future career. I will practice every week.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 60
+    },
+    {
+      "id": "ef_0177",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "topic_card",
+      "prompt": "Do you prefer online learning or classroom learning? Why?",
+      "answer": "I prefer classroom learning because I can interact with teachers and classmates and stay focused.",
+      "keywords": [
+        "prefer",
+        "online",
+        "classroom",
+        "because",
+        "flexible",
+        "interact",
+        "focus"
+      ],
+      "sampleAnswer": "I prefer classroom learning because I can interact with teachers and classmates and stay focused.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 60
+    },
+    {
+      "id": "ef_0178",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "topic_card",
+      "prompt": "Talk about a memorable trip (short).",
+      "answer": "Last summer I went to the mountains with my family. I enjoyed the beautiful views.",
+      "keywords": [
+        "trip",
+        "went",
+        "with",
+        "enjoyed",
+        "because",
+        "visit",
+        "beautiful"
+      ],
+      "sampleAnswer": "Last summer I went to the mountains with my family. I enjoyed the beautiful views.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 60
+    },
+    {
+      "id": "ef_0179",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "topic_card",
+      "prompt": "What makes a good friend?",
+      "answer": "A good friend is honest and kind. They listen to you and support you when you need help.",
+      "keywords": [
+        "friend",
+        "honest",
+        "kind",
+        "trust",
+        "support",
+        "listen",
+        "respect"
+      ],
+      "sampleAnswer": "A good friend is honest and kind. They listen to you and support you when you need help.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 60
+    },
+    {
+      "id": "ef_0180",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "topic_card",
+      "prompt": "How do you manage stress before exams?",
+      "answer": "I make a study plan, exercise, and sleep well. Deep breathing also helps me relax.",
+      "keywords": [
+        "stress",
+        "exam",
+        "relax",
+        "plan",
+        "sleep",
+        "exercise",
+        "breathe"
+      ],
+      "sampleAnswer": "I make a study plan, exercise, and sleep well. Deep breathing also helps me relax.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 60
+    },
+    {
+      "id": "ef_0181",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "word_choose",
+      "prompt": "表达同意常用：",
+      "choices": [
+        "I agree with you.",
+        "Blue sky only.",
+        "I am apple.",
+        "Close window now."
+      ],
+      "answer": "I agree with you.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "ef_0182",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "word_choose",
+      "prompt": "表达不同意见更礼貌：",
+      "choices": [
+        "You are stupid.",
+        "Shut up.",
+        "I see your point, but...",
+        "No forever."
+      ],
+      "answer": "I see your point, but...",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "ef_0183",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "word_choose",
+      "prompt": "描述频率「经常」：",
+      "choices": [
+        "often / usually",
+        "yesterday tomorrow",
+        "never always never",
+        "under the table"
+      ],
+      "answer": "often / usually",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "ef_0184",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "word_choose",
+      "prompt": "口语过渡词：",
+      "choices": [
+        "Random numbers",
+        "Only silence",
+        "Banana banana",
+        "First... Moreover... Finally..."
+      ],
+      "answer": "First... Moreover... Finally...",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "ef_0185",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "word_choose",
+      "prompt": "结尾总结可说：",
+      "choices": [
+        "In conclusion...",
+        "Zero words.",
+        "I forget all.",
+        "The end now go."
+      ],
+      "answer": "In conclusion...",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "ef_0186",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0187",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0188",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0189",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0190",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0191",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0192",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0193",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0194",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0195",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0196",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0197",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0198",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0199",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "ef_0200",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "shadow_read",
+      "prompt": "跟读考试常用句",
+      "answer": "In my opinion, practice is the key to improvement.",
+      "audioText": "In my opinion, practice is the key to improvement.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "tf_0201",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "topic_card",
+      "prompt": "Some people prefer to work in teams; others prefer to work alone. Which do you prefer and why? (independent speaking style)",
+      "answer": "I prefer working in teams because we can share ideas and finish complex tasks more efficiently.",
+      "keywords": [
+        "prefer",
+        "team",
+        "alone",
+        "because",
+        "ideas",
+        "efficient",
+        "responsibility"
+      ],
+      "sampleAnswer": "I prefer working in teams because we can share ideas and finish complex tasks more efficiently.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 70
+    },
+    {
+      "id": "tf_0202",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "topic_card",
+      "prompt": "Do you agree that students should have part-time jobs? Explain.",
+      "answer": "I agree that students can have part-time jobs if they balance study and work. It builds experience.",
+      "keywords": [
+        "agree",
+        "students",
+        "job",
+        "experience",
+        "time",
+        "money",
+        "balance"
+      ],
+      "sampleAnswer": "I agree that students can have part-time jobs if they balance study and work. It builds experience.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 70
+    },
+    {
+      "id": "tf_0203",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "topic_card",
+      "prompt": "Describe a problem in your community and a possible solution.",
+      "answer": "Traffic congestion is a problem. The city should improve public transport so people drive less.",
+      "keywords": [
+        "problem",
+        "community",
+        "solution",
+        "because",
+        "improve",
+        "people",
+        "should"
+      ],
+      "sampleAnswer": "Traffic congestion is a problem. The city should improve public transport so people drive less.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 70
+    },
+    {
+      "id": "tf_0204",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "topic_card",
+      "prompt": "Is technology making people more isolated? Give reasons.",
+      "answer": "Technology can isolate people if they only use social media, but it can also help them connect globally.",
+      "keywords": [
+        "technology",
+        "isolated",
+        "social",
+        "media",
+        "however",
+        "connect",
+        "offline"
+      ],
+      "sampleAnswer": "Technology can isolate people if they only use social media, but it can also help them connect globally.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 70
+    },
+    {
+      "id": "tf_0205",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "word_choose",
+      "prompt": "Campus announcement skill: main purpose is often to…",
+      "choices": [
+        "cancel English forever",
+        "inform students about a change",
+        "punish everyone",
+        "sell products only"
+      ],
+      "answer": "inform students about a change",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "tf_0206",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "word_choose",
+      "prompt": "Independent speaking tip: you should…",
+      "choices": [
+        "state a clear position and give reasons",
+        "stay silent",
+        "read Chinese",
+        "only say one word"
+      ],
+      "answer": "state a clear position and give reasons",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "tf_0207",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "word_choose",
+      "prompt": "Good transition:",
+      "choices": [
+        "No reason",
+        "For example, / On the other hand,",
+        "Blah blah",
+        "End now"
+      ],
+      "answer": "For example, / On the other hand,",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "tf_0208",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "word_choose",
+      "prompt": "Time management:",
+      "choices": [
+        "Plan 15s, speak clearly, wrap up",
+        "Ignore the prompt",
+        "Speak until battery dies",
+        "Copy friend"
+      ],
+      "answer": "Plan 15s, speak clearly, wrap up",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "tf_0209",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "word_choose",
+      "prompt": "Integrated speaking needs:",
+      "choices": [
+        "random jokes",
+        "key points from reading/listening",
+        "dictionary listing",
+        "only personal stories"
+      ],
+      "answer": "key points from reading/listening",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "tf_0210",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "You are completely wrong and dumb.",
+        "I will not listen.",
+        "Random silence is best.",
+        "That's a good point. I'd also add that..."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0211",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "Random silence is best.",
+        "I will not listen.",
+        "You are completely wrong and dumb.",
+        "That's a good point. I'd also add that..."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0212",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "Random silence is best.",
+        "You are completely wrong and dumb.",
+        "I will not listen.",
+        "That's a good point. I'd also add that..."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0213",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "You are completely wrong and dumb.",
+        "Random silence is best.",
+        "That's a good point. I'd also add that...",
+        "I will not listen."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0214",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "You are completely wrong and dumb.",
+        "Random silence is best.",
+        "That's a good point. I'd also add that...",
+        "I will not listen."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0215",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "Random silence is best.",
+        "You are completely wrong and dumb.",
+        "That's a good point. I'd also add that...",
+        "I will not listen."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0216",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "I will not listen.",
+        "Random silence is best.",
+        "You are completely wrong and dumb.",
+        "That's a good point. I'd also add that..."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0217",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "I will not listen.",
+        "You are completely wrong and dumb.",
+        "Random silence is best.",
+        "That's a good point. I'd also add that..."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0218",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "Random silence is best.",
+        "That's a good point. I'd also add that...",
+        "You are completely wrong and dumb.",
+        "I will not listen."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0219",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "That's a good point. I'd also add that...",
+        "I will not listen.",
+        "Random silence is best.",
+        "You are completely wrong and dumb."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0220",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "You are completely wrong and dumb.",
+        "Random silence is best.",
+        "I will not listen.",
+        "That's a good point. I'd also add that..."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0221",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "Random silence is best.",
+        "I will not listen.",
+        "You are completely wrong and dumb.",
+        "That's a good point. I'd also add that..."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0222",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "I will not listen.",
+        "You are completely wrong and dumb.",
+        "That's a good point. I'd also add that...",
+        "Random silence is best."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0223",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "You are completely wrong and dumb.",
+        "That's a good point. I'd also add that...",
+        "I will not listen.",
+        "Random silence is best."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0224",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "That's a good point. I'd also add that...",
+        "You are completely wrong and dumb.",
+        "Random silence is best.",
+        "I will not listen."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0225",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "You are completely wrong and dumb.",
+        "That's a good point. I'd also add that...",
+        "I will not listen.",
+        "Random silence is best."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0226",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "Random silence is best.",
+        "I will not listen.",
+        "You are completely wrong and dumb.",
+        "That's a good point. I'd also add that..."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0227",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "I will not listen.",
+        "Random silence is best.",
+        "That's a good point. I'd also add that...",
+        "You are completely wrong and dumb."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0228",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "That's a good point. I'd also add that...",
+        "I will not listen.",
+        "Random silence is best.",
+        "You are completely wrong and dumb."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "tf_0229",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "dialogue_next",
+      "prompt": "学术讨论中，同学提出观点后你想补充，更合适的是：",
+      "choices": [
+        "Random silence is best.",
+        "I will not listen.",
+        "That's a good point. I'd also add that...",
+        "You are completely wrong and dumb."
+      ],
+      "answer": "That's a good point. I'd also add that...",
+      "tags": [
+        "sentence",
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "il_0230",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "topic_card",
+      "prompt": "IELTS-style Part 1: Do you like reading? What kind of books?",
+      "answer": "Yes, I like reading novels because they help me relax and improve my vocabulary.",
+      "keywords": [
+        "reading",
+        "like",
+        "books",
+        "because",
+        "novel",
+        "usually",
+        "enjoy"
+      ],
+      "sampleAnswer": "Yes, I like reading novels because they help me relax and improve my vocabulary.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 90
+    },
+    {
+      "id": "il_0231",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "topic_card",
+      "prompt": "IELTS-style Part 2: Describe a person who inspired you. You should say who, how you know them, and why they inspired you.",
+      "answer": "My high school teacher inspired me. She was hardworking and kind. She taught me to never give up.",
+      "keywords": [
+        "person",
+        "inspired",
+        "because",
+        "hardworking",
+        "kind",
+        "example",
+        "learn"
+      ],
+      "sampleAnswer": "My high school teacher inspired me. She was hardworking and kind. She taught me to never give up.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 90
+    },
+    {
+      "id": "il_0232",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "topic_card",
+      "prompt": "IELTS-style Part 3: How can schools better prepare students for the workplace?",
+      "answer": "Schools should offer internships and teach communication skills so students are ready for real jobs.",
+      "keywords": [
+        "schools",
+        "students",
+        "skills",
+        "internship",
+        "communication",
+        "practical",
+        "prepare"
+      ],
+      "sampleAnswer": "Schools should offer internships and teach communication skills so students are ready for real jobs.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 90
+    },
+    {
+      "id": "il_0233",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "topic_card",
+      "prompt": "Part 1: What do you usually do on weekends?",
+      "answer": "On weekends I usually meet friends, play sports, and rest with my family.",
+      "keywords": [
+        "weekend",
+        "usually",
+        "friends",
+        "rest",
+        "sport",
+        "watch",
+        "family"
+      ],
+      "sampleAnswer": "On weekends I usually meet friends, play sports, and rest with my family.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 90
+    },
+    {
+      "id": "il_0234",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "topic_card",
+      "prompt": "Part 3: What are the advantages of learning a foreign language?",
+      "answer": "Learning a foreign language opens career opportunities, helps travel, and improves cultural understanding.",
+      "keywords": [
+        "language",
+        "culture",
+        "career",
+        "travel",
+        "communicate",
+        "opportunity",
+        "brain"
+      ],
+      "sampleAnswer": "Learning a foreign language opens career opportunities, helps travel, and improves cultural understanding.",
+      "tags": [
+        "topic",
+        "speaking"
+      ],
+      "allowPopup": false,
+      "estSeconds": 90
+    },
+    {
+      "id": "il_0235",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "word_choose",
+      "prompt": "Part 1 回答宜：",
+      "choices": [
+        "背整篇范文不停",
+        "只说 Yes/No",
+        "全程中文",
+        "完整句子 + 简单理由"
+      ],
+      "answer": "完整句子 + 简单理由",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "il_0236",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "word_choose",
+      "prompt": "Part 2 可用结构：",
+      "choices": [
+        "who/what → details → why memorable",
+        "不看卡片",
+        "保持沉默",
+        "只读题目"
+      ],
+      "answer": "who/what → details → why memorable",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "il_0237",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "word_choose",
+      "prompt": "Part 3 提升：",
+      "choices": [
+        "拒绝回答",
+        "说天气即可",
+        "只重复 Part2",
+        "抽象一点 + 举例对比"
+      ],
+      "answer": "抽象一点 + 举例对比",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "il_0238",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "word_choose",
+      "prompt": "流利度建议：",
+      "choices": [
+        "自然停顿，少填词过载",
+        "只背连接词",
+        "越快越好不管准",
+        "每词停 5 秒"
+      ],
+      "answer": "自然停顿，少填词过载",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "il_0239",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "word_choose",
+      "prompt": "词汇策略：",
+      "choices": [
+        "全用拼音",
+        "重复一个形容词",
+        "全用超难词",
+        "准确自然优于生僻堆砌"
+      ],
+      "answer": "准确自然优于生僻堆砌",
+      "tags": [
+        "topic"
+      ],
+      "allowPopup": true,
+      "estSeconds": 30
+    },
+    {
+      "id": "il_0240",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0241",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0242",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0243",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0244",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0245",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0246",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0247",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0248",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0249",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0250",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0251",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0252",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0253",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0254",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0255",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0256",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0257",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0258",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0259",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0260",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0261",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0262",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0263",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "il_0264",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "shadow_read",
+      "prompt": "雅思高分句跟读",
+      "answer": "This experience taught me the value of perseverance and clear communication.",
+      "audioText": "This experience taught me the value of perseverance and clear communication.",
+      "tags": [
+        "speaking",
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "ro_0265",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "reorder",
+      "prompt": "把单词排成正确句子（按正确顺序依次点选）：",
+      "choices": [
+        "English",
+        "learning",
+        "I",
+        "love"
+      ],
+      "answer": "I love learning English",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35,
+      "explanation": "I love learning English"
+    },
+    {
+      "id": "ro_0266",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "reorder",
+      "prompt": "排序组成地道口语：",
+      "choices": [
+        "English",
+        "love",
+        "I",
+        "learning"
+      ],
+      "answer": "I love learning English",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "ro_0267",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "reorder",
+      "prompt": "把单词排成正确句子（按正确顺序依次点选）：",
+      "choices": [
+        "She",
+        "friend",
+        "my",
+        "is",
+        "best"
+      ],
+      "answer": "She is my best friend",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35,
+      "explanation": "She is my best friend"
+    },
+    {
+      "id": "ro_0268",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "reorder",
+      "prompt": "排序组成地道口语：",
+      "choices": [
+        "best",
+        "She",
+        "friend",
+        "my",
+        "is"
+      ],
+      "answer": "She is my best friend",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "ro_0269",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "reorder",
+      "prompt": "把单词排成正确句子（按正确顺序依次点选）：",
+      "choices": [
+        "Where",
+        "library",
+        "is",
+        "the"
+      ],
+      "answer": "Where is the library",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35,
+      "explanation": "Where is the library"
+    },
+    {
+      "id": "ro_0270",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "reorder",
+      "prompt": "排序组成地道口语：",
+      "choices": [
+        "the",
+        "is",
+        "Where",
+        "library"
+      ],
+      "answer": "Where is the library",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "ro_0271",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "reorder",
+      "prompt": "把单词排成正确句子（按正确顺序依次点选）：",
+      "choices": [
+        "coffee",
+        "I",
+        "a",
+        "like",
+        "would"
+      ],
+      "answer": "I would like a coffee",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35,
+      "explanation": "I would like a coffee"
+    },
+    {
+      "id": "ro_0272",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "reorder",
+      "prompt": "排序组成地道口语：",
+      "choices": [
+        "coffee",
+        "like",
+        "I",
+        "a",
+        "would"
+      ],
+      "answer": "I would like a coffee",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "ro_0273",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "reorder",
+      "prompt": "把单词排成正确句子（按正确顺序依次点选）：",
+      "choices": [
+        "Practice",
+        "makes",
+        "perfect"
+      ],
+      "answer": "Practice makes perfect",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35,
+      "explanation": "Practice makes perfect"
+    },
+    {
+      "id": "ro_0274",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "reorder",
+      "prompt": "排序组成地道口语：",
+      "choices": [
+        "perfect",
+        "makes",
+        "Practice"
+      ],
+      "answer": "Practice makes perfect",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "ro_0275",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "reorder",
+      "prompt": "把单词排成正确句子（按正确顺序依次点选）：",
+      "choices": [
+        "help",
+        "you",
+        "Could",
+        "me"
+      ],
+      "answer": "Could you help me",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35,
+      "explanation": "Could you help me"
+    },
+    {
+      "id": "ro_0276",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "reorder",
+      "prompt": "排序组成地道口语：",
+      "choices": [
+        "help",
+        "Could",
+        "you",
+        "me"
+      ],
+      "answer": "Could you help me",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "ro_0277",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "reorder",
+      "prompt": "把单词排成正确句子（按正确顺序依次点选）：",
+      "choices": [
+        "sunny",
+        "is",
+        "a",
+        "day",
+        "It"
+      ],
+      "answer": "It is a sunny day",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35,
+      "explanation": "It is a sunny day"
+    },
+    {
+      "id": "ro_0278",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "reorder",
+      "prompt": "排序组成地道口语：",
+      "choices": [
+        "a",
+        "day",
+        "sunny",
+        "It",
+        "is"
+      ],
+      "answer": "It is a sunny day",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "ro_0279",
+      "mapId": "wordtown",
+      "tier": 1,
+      "type": "reorder",
+      "prompt": "把单词排成正确句子（按正确顺序依次点选）：",
+      "choices": [
+        "I",
+        "looking",
+        "to",
+        "am",
+        "it",
+        "forward"
+      ],
+      "answer": "I am looking forward to it",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35,
+      "explanation": "I am looking forward to it"
+    },
+    {
+      "id": "ro_0280",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "reorder",
+      "prompt": "排序组成地道口语：",
+      "choices": [
+        "I",
+        "to",
+        "forward",
+        "am",
+        "it",
+        "looking"
+      ],
+      "answer": "I am looking forward to it",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 35
+    },
+    {
+      "id": "pad_0281",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "word_choose",
+      "prompt": "巩固题：选择更自然的表达 #38",
+      "choices": [
+        "I practice everydayly.",
+        "I practice every day.",
+        "Me practice day.",
+        "Practice I day every."
+      ],
+      "answer": "I practice every day.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "pad_0282",
+      "mapId": "dialoguevalley",
+      "tier": 2,
+      "type": "word_choose",
+      "prompt": "巩固题：选择更自然的表达 #39",
+      "choices": [
+        "I practice everydayly.",
+        "Me practice day.",
+        "Practice I day every.",
+        "I practice every day."
+      ],
+      "answer": "I practice every day.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "sentence"
+      ],
+      "allowPopup": true,
+      "estSeconds": 25
+    },
+    {
+      "id": "pad_0283",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#15）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0284",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#16）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0285",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#17）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0286",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#18）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0287",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#19）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0288",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#20）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0289",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#21）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0290",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#22）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0291",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#23）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0292",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#24）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0293",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#25）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0294",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#26）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0295",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#27）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0296",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#28）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0297",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#29）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0298",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#30）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0299",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#31）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0300",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#32）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0301",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#33）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0302",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#34）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0303",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#35）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0304",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#36）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0305",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#37）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0306",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#38）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0307",
+      "mapId": "campusport",
+      "tier": 3,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#39）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0308",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#25）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0309",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#26）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0310",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#27）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0311",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#28）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0312",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#29）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0313",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#30）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0314",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#31）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0315",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#32）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0316",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#33）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0317",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#34）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0318",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#35）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0319",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#36）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0320",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#37）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0321",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#38）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0322",
+      "mapId": "examfront",
+      "tier": 4,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#39）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0323",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#29）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0324",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#30）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0325",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#31）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0326",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#32）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0327",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#33）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0328",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#34）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0329",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#35）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0330",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#36）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0331",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#37）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0332",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#38）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0333",
+      "mapId": "toeflcity",
+      "tier": 5,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#39）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0334",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#35）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0335",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#36）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0336",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#37）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0337",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#38）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    },
+    {
+      "id": "pad_0338",
+      "mapId": "ielstower",
+      "tier": 6,
+      "type": "short_speak",
+      "prompt": "地图练习：用英语说一件与学习相关的事（#39）",
+      "answer": "I practice English every day because I want to improve.",
+      "keywords": [
+        "practice",
+        "english",
+        "day",
+        "improve",
+        "learn",
+        "because"
+      ],
+      "sampleAnswer": "I practice English every day because I want to improve.",
+      "tags": [
+        "speaking",
+        "topic"
+      ],
+      "allowPopup": false,
+      "estSeconds": 40
+    }
+  ]
+}
