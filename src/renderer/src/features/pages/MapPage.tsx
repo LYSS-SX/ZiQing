@@ -1,19 +1,25 @@
-import { MAPS, getMap } from '../../../../shared/maps'
+import { getMap } from '../../../../shared/maps'
 import { useApp } from '../../state/AppState'
+import { AdventureMap } from '../map/AdventureMap'
+import type { MapId } from '../../../../shared/types'
 
 export function MapPage(): JSX.Element {
   const { data, setNav, save } = useApp()
   const current = getMap(data.profile.currentMapId)
 
+  const selectMap = async (id: MapId): Promise<void> => {
+    const next = structuredClone(data)
+    next.profile.currentMapId = id
+    await save(next)
+  }
+
   return (
-    <div className="page">
+    <div className="page page-wide">
       <header className="page-head">
         <div>
-          <p className="eyebrow">冒险地图</p>
-          <h1>
-            {current.emoji} {current.name}
-          </h1>
-          <p className="sub">{current.subtitle}</p>
+          <p className="eyebrow">Adventure Map</p>
+          <h1>口语世界 · 关卡路线</h1>
+          <p className="sub">沿像素之路从咿呀村走到雅思塔 — 点击节点切换当前关卡</p>
         </div>
         <div className="stat-pills">
           <span>Lv.{data.profile.level}</span>
@@ -23,49 +29,27 @@ export function MapPage(): JSX.Element {
         </div>
       </header>
 
-      <section className="cta-card">
+      <AdventureMap
+        currentMapId={data.profile.currentMapId}
+        unlockedMapIds={data.profile.unlockedMapIds}
+        onSelect={(id) => void selectMap(id)}
+      />
+
+      <section className="cta-card glass">
         <div>
-          <h2>今日副本已就绪</h2>
-          <p>热身 → 主线 → 挑战 → 复仇，大约 8～12 分钟</p>
+          <h2>今日副本 · {current.emoji} {current.name}</h2>
+          <p>热身 → 主线 → 挑战 → 复仇 · 约 8～12 分钟</p>
         </div>
         <button type="button" className="btn primary lg" onClick={() => setNav('dungeon')}>
           进入今日副本
         </button>
       </section>
 
-      <div className="map-grid">
-        {MAPS.map((m) => {
-          const unlocked = data.profile.unlockedMapIds.includes(m.id)
-          const active = data.profile.currentMapId === m.id
-          return (
-            <button
-              key={m.id}
-              type="button"
-              className={`map-card ${unlocked ? '' : 'locked'} ${active ? 'active' : ''}`}
-              style={{ ['--map' as string]: m.color }}
-              disabled={!unlocked}
-              onClick={async () => {
-                if (!unlocked) return
-                const next = structuredClone(data)
-                next.profile.currentMapId = m.id
-                await save(next)
-              }}
-            >
-              <div className="map-emoji">{m.emoji}</div>
-              <div className="map-name">{m.name}</div>
-              <div className="map-sub">{m.subtitle}</div>
-              <div className="map-xp">解锁 XP ≥ {m.unlockXp}</div>
-              {!unlocked && <div className="lock">🔒 继续冒险解锁</div>}
-              {active && <div className="you-are">你在这里</div>}
-            </button>
-          )
-        })}
-      </div>
-
-      <section className="tips card soft">
-        <h3>新手提示</h3>
+      <section className="tips card soft glass">
+        <h3>路线说明</h3>
         <p>
-          系统托盘会随机弹短题（可在设置关闭）。答错的题会进「待翻盘」，荣誉墙会越来越绿，复仇墙越来越红——但红色代表「还欠你一场胜利」。
+          地图上的虚线是你的主线关卡路线。已解锁节点可随时回访复习；未解锁节点需积累 XP。
+          托盘弹题会优先抽取当前关卡与「待翻盘」短题。
         </p>
       </section>
     </div>

@@ -48,7 +48,7 @@ function createMainWindow(): void {
     minHeight: 640,
     show: false,
     title: '紫青口语 · 闯关宇宙',
-    backgroundColor: '#0f1221',
+    backgroundColor: '#042f2e',
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       contextIsolation: true,
@@ -89,7 +89,7 @@ function createPopupWindow(): void {
     skipTaskbar: false,
     resizable: true,
     title: '紫青 · 随机挑战',
-    backgroundColor: '#0f1221',
+    backgroundColor: '#042f2e',
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       contextIsolation: true,

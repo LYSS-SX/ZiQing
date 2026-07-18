@@ -1,0 +1,112 @@
+.ambient {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #042f2e;
+}
+
+.ambient-photo {
+  position: absolute;
+  inset: -12%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(48px) saturate(1.15) brightness(0.72);
+  transform: scale(1.15);
+  opacity: 0.95;
+}
+
+.ambient-blur-plate {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 30%, rgba(45, 212, 191, 0.28), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 80% 20%, rgba(34, 211, 238, 0.22), transparent 50%),
+    radial-gradient(ellipse 60% 70% at 60% 90%, rgba(13, 148, 136, 0.35), transparent 55%),
+    linear-gradient(165deg, rgba(4, 47, 46, 0.55), rgba(2, 44, 54, 0.72));
+  backdrop-filter: blur(40px) saturate(1.2);
+  -webkit-backdrop-filter: blur(40px) saturate(1.2);
+}
+
+.ambient-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  mix-blend-mode: screen;
+  opacity: 0.55;
+  animation: floatBlob 18s ease-in-out infinite;
+}
+
+.ambient-blob.b1 {
+  width: 42vw;
+  height: 42vw;
+  left: -8%;
+  top: -10%;
+  background: radial-gradient(circle, rgba(94, 234, 212, 0.7), transparent 70%);
+  animation-duration: 22s;
+}
+
+.ambient-blob.b2 {
+  width: 36vw;
+  height: 36vw;
+  right: -6%;
+  top: 10%;
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.55), transparent 70%);
+  animation-duration: 26s;
+  animation-delay: -4s;
+}
+
+.ambient-blob.b3 {
+  width: 48vw;
+  height: 38vw;
+  left: 25%;
+  bottom: -18%;
+  background: radial-gradient(circle, rgba(15, 118, 110, 0.65), transparent 70%);
+  animation-duration: 30s;
+  animation-delay: -8s;
+}
+
+.ambient-blob.b4 {
+  width: 28vw;
+  height: 28vw;
+  left: 48%;
+  top: 35%;
+  background: radial-gradient(circle, rgba(165, 243, 252, 0.35), transparent 70%);
+  animation-duration: 20s;
+  animation-delay: -2s;
+}
+
+.ambient-noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: overlay;
+}
+
+.ambient-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(2, 24, 28, 0.55) 100%);
+}
+
+@keyframes floatBlob {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(3%, 4%) scale(1.06);
+  }
+  66% {
+    transform: translate(-4%, 2%) scale(0.96);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-blob {
+    animation: none;
+  }
+}

@@ -8,8 +8,12 @@ export interface MapMeta {
   emoji: string
   color: string
   unlockXp: number
+  /** percent position on world map canvas */
+  x: number
+  y: number
 }
 
+/** Teal / aqua / mint only — no purple */
 export const MAPS: MapMeta[] = [
   {
     id: 'yayacun',
@@ -17,8 +21,10 @@ export const MAPS: MapMeta[] = [
     name: '咿呀村',
     subtitle: '幼儿园～小学低 · 单词启蒙',
     emoji: '🏡',
-    color: '#7dd3a0',
-    unlockXp: 0
+    color: '#5EEAD4',
+    unlockXp: 0,
+    x: 7,
+    y: 68
   },
   {
     id: 'wordtown',
@@ -26,8 +32,10 @@ export const MAPS: MapMeta[] = [
     name: '单词小镇',
     subtitle: '小学～初中 · 词句基础',
     emoji: '🏘️',
-    color: '#6ec6ff',
-    unlockXp: 80
+    color: '#2DD4BF',
+    unlockXp: 80,
+    x: 20,
+    y: 42
   },
   {
     id: 'dialoguevalley',
@@ -35,8 +43,10 @@ export const MAPS: MapMeta[] = [
     name: '对话山谷',
     subtitle: '日常短对话',
     emoji: '🏞️',
-    color: '#a78bfa',
-    unlockXp: 220
+    color: '#14B8A6',
+    unlockXp: 220,
+    x: 34,
+    y: 58
   },
   {
     id: 'campusport',
@@ -44,8 +54,10 @@ export const MAPS: MapMeta[] = [
     name: '校园港',
     subtitle: '校园与生活场景',
     emoji: '⚓',
-    color: '#fbbf24',
-    unlockXp: 420
+    color: '#06B6D4',
+    unlockXp: 420,
+    x: 48,
+    y: 38
   },
   {
     id: 'examfront',
@@ -53,8 +65,10 @@ export const MAPS: MapMeta[] = [
     name: '考场前线',
     subtitle: '四六级口语感',
     emoji: '🎯',
-    color: '#fb923c',
-    unlockXp: 700
+    color: '#22D3EE',
+    unlockXp: 700,
+    x: 62,
+    y: 55
   },
   {
     id: 'toeflcity',
@@ -62,8 +76,10 @@ export const MAPS: MapMeta[] = [
     name: '托福城',
     subtitle: 'TOEFL 口语任务感',
     emoji: '🏙️',
-    color: '#f472b6',
-    unlockXp: 1100
+    color: '#67E8F9',
+    unlockXp: 1100,
+    x: 76,
+    y: 36
   },
   {
     id: 'ielstower',
@@ -71,8 +87,10 @@ export const MAPS: MapMeta[] = [
     name: '雅思塔',
     subtitle: 'IELTS 口语 1～3',
     emoji: '🗼',
-    color: '#e879f9',
-    unlockXp: 1600
+    color: '#A5F3FC',
+    unlockXp: 1600,
+    x: 90,
+    y: 50
   }
 ]
 

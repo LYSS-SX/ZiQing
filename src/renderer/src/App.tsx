@@ -1,4 +1,5 @@
 import { AppStateProvider, useApp } from './state/AppState'
+import { AmbientBackground } from './components/AmbientBackground'
 import { Onboarding } from './features/onboarding/Onboarding'
 import { MapPage } from './features/pages/MapPage'
 import { DungeonPage } from './features/pages/DungeonPage'
@@ -31,7 +32,7 @@ function Shell(): JSX.Element {
   if (!ready) {
     return (
       <div className="boot">
-        <div className="boot-card">紫青口语启动中…</div>
+        <div className="boot-card glass">紫青口语启动中…</div>
       </div>
     )
   }
@@ -48,10 +49,10 @@ function Shell(): JSX.Element {
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand">
-          <div className="brand-mark">紫</div>
+          <div className="brand-mark">青</div>
           <div>
             <div className="brand-title">紫青口语</div>
-            <div className="brand-sub">闯关宇宙</div>
+            <div className="brand-sub">Mint · Glass Adventure</div>
           </div>
         </div>
         <nav className="nav">
@@ -94,6 +95,7 @@ export default function App(): JSX.Element {
   const popup = isPopupRoute()
   return (
     <AppStateProvider isPopup={popup}>
+      <AmbientBackground />
       {popup ? <PopupApp /> : <Shell />}
     </AppStateProvider>
   )
