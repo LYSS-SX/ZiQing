@@ -11,6 +11,7 @@
     "preview": "electron-vite preview",
     "pack": "npm run build && electron-builder --dir",
     "dist": "npm run build && electron-builder",
+    "dist:portable": "npm run build && electron-builder --win portable",
     "generate:bank": "node scripts/generate-question-bank.mjs"
   },
   "dependencies": {
@@ -38,8 +39,8 @@
       "out/**/*"
     ],
     "win": {
+      "signAndEditExecutable": false,
       "target": [
-        "nsis",
         "portable"
       ]
     },

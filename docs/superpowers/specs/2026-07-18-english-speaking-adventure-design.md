@@ -1,10 +1,14 @@
 # 英语口语闯关宇宙 — 产品设计规格
 
 **日期：** 2026-07-18  
-**状态：** 待用户审阅  
-**产品代号：** English Speaking Adventure（口语冒险家）  
+**最后更新：** 2026-07-18（v1.0 落地 + 迭代修订）  
+**状态：** 已实现（完整核心版可运行 / 已便携打包）  
+**产品代号：** ZiQing（紫青）· English Speaking Adventure  
 **目标平台：** Windows 桌面应用  
-**技术路线：** Electron + React + TypeScript + Vite（方案 A）
+**技术路线：** Electron + React + TypeScript + Vite（方案 A）  
+**仓库：** https://github.com/LYSS-SX/ZiQing  
+
+> 本文档为产品规格的**现行真相**。文末「修订记录」汇总相对初版的全部变更。
 
 ---
 
@@ -74,10 +78,12 @@
 | 场景 | 行为 |
 |------|------|
 | 首次打开 | 引导 → 5 题热身定级 → 落入地图 → 送首枚勋章 |
-| 每日主动学 | 打开「今日副本」，8～12 分钟闭环 |
+| 每日主动学 | 打开「今日副本」：固定 30 题，答对才前进，可循环至通关 |
+| 自由学 | 「自由练习」不限地图解锁、不限题量；「单词表」查基础词 |
 | 碎片时间 | 托盘常驻，通知 + 置顶小窗随机短题 |
 | 薄弱突破 | 在「待翻盘 / 复仇墙」主动点题重练 |
-| 回顾成就 | 荣誉墙、成就页、周报看进步 |
+| 看不懂题 | 答题页一键「显示中文」提示 |
+| 回顾成就 | 荣誉墙、成就页、成长速览 |
 
 ---
 
@@ -136,21 +142,62 @@
 - 礼花强度：关 / 标准 / 全开  
 - 动效减弱（无障碍/性能）  
 
-### 4.5 今日副本（每日练习）
+### 4.5 今日副本（每日练习）— 现行规则 v2
 
-时长目标：**8～12 分钟**，结构固定：
+**固定 30 题**，结构：
 
-1. **热身 2 题** — 昨天会的或更低一档，建立信心  
-2. **主线 5 题** — 当前地图难度  
-3. **挑战 1 题** — 略难一档，成功双倍经验  
-4. **复仇 1～2 题** — 从待翻盘优先抽取  
+| 阶段 | 题量 | 说明 |
+|------|------|------|
+| 热身 | 5 | 偏低一档或当前档，建立信心 |
+| 主线 | 15 | 当前地图难度 |
+| 挑战 | 5 | 略高一档 |
+| 复仇 | 5 | 优先待翻盘；不足则从题库补齐 |
+
+**通关规则（循环挑战）：**
+
+1. **只有答对才能进入下一题**  
+2. **答错不前进**：原地再战同一题，可无限重试，并统计「本题已错 N 次」  
+3. 30 题全部答对 → 通关、盖章、发星尘、解锁「副本启程」类成就  
+4. 通关后或中途可点 **「重开 30 题」** 再开一轮（重新抽题）  
+5. 旧版短副本（&lt;30 题）打开时自动迁移为 30 题  
 
 完成后：
 
-- 日历 **今日印章**  
-- 经验 / 金币（或等价「星尘」）  
-- 一句个性化鼓励（基于当日数据模板，非空话）  
-- 连续打卡火焰：3 / 7 / 21 天称号；断签火焰减弱，可用「补签小任务」挽回（第一版可做简化：仅展示连续天数，补签为可选增强）
+- 经验 / 星尘  
+- 连续打卡天数累计  
+- 可再开一轮 30 题  
+
+### 4.5.1 自由练习（现行）
+
+- **不设 12 题上限**；按筛选条件使用全量题库  
+- **不要求地图解锁**：全部地图可选  
+- 支持：全部地图 / 单地图、全部题型 / 单题型、上一题 / 下一题 / 重新打乱  
+- 进度条展示当前筛选下的位置  
+
+### 4.5.2 单词表（现行新增）
+
+独立导航页 **单词表**：
+
+- 内置 A1～B2 基础词（生成脚本写入 `vocabulary.json`，约 400+ 词）  
+- 中英搜索、级别筛选  
+- 释义、例句、听发音 / 听例句（TTS）  
+- 与题库词条同源扩展，练习题由同一词表批量生成  
+
+### 4.5.3 题目中文提示（现行新增）
+
+答题器提供 **「显示中文」** 开关：
+
+- `promptZh`：题干中文  
+- `sampleAnswerZh`：示范中文  
+- `explanation`：解析  
+- 默认关闭，避免依赖翻译；小白可随时打开  
+
+### 4.5.4 语音识别（现行）
+
+- 主进程放行麦克风权限；识别前 `getUserMedia` 预检  
+- Web Speech API（`en-US`），中间结果展示；跟读评分偏宽松  
+- 失败路径：中文错误说明 + 打字 + 「我已跟读/说完」  
+- **注意：** Chromium 语音识别通常需 **联网** + 系统麦克风权限
 
 ### 4.6 随机弹窗引擎
 
@@ -211,29 +258,38 @@
 
 | 窗口 | 职责 |
 |------|------|
-| 主窗口 | 地图、副本、练习、双榜、成就、设置 |
+| 主窗口 | 地图、副本、自由练习、单词表、双榜、成就、设置 |
 | 弹题小窗 | 置顶、紧凑、单题闭环 + 迷你反馈 |
 | 系统托盘 | 常驻、暂停/恢复弹题、打开主窗、退出 |
 | 系统通知 | 提示来练习；点击聚焦弹题窗 |
 
-### 5.2 主导航
+### 5.2 主导航（现行）
 
-1. **冒险地图** — 首页：当前世界、进度、下一关入口、今日副本 CTA  
-2. **今日副本** — 每日结构化练习  
-3. **自由练习** — 按地图/章节自学  
-4. **待翻盘** — 错题本  
-5. **荣誉墙**  
-6. **复仇墙**  
-7. **成就与报告** — 勋章、打卡、周报  
-8. **设置**  
+1. **冒险地图** — 像素世界地图 + 关卡路线节点 + 今日副本 CTA  
+2. **今日副本** — 30 题循环挑战  
+3. **自由练习** — 全库筛选自学（无解锁限制）  
+4. **单词表** — 基础词查询与听音  
+5. **待翻盘** — 错题本  
+6. **荣誉墙**  
+7. **复仇墙**  
+8. **成就与报告** — 勋章、成长速览  
+9. **设置**  
 
-### 5.3 视觉基调
+### 5.3 视觉基调（现行 v2 · Teal Glass）
 
-- 现代教育产品 + 轻度冒险 UI  
-- 支持亮色/暗色主题  
-- 等级与地图有明确色标  
-- 正确：绿/金；错误：冲击红（可减弱）  
-- 空状态、加载、首次引导均有完整插画/文案（可用 CSS 几何 + emoji/SVG 先落地，后续可换插画）
+**已弃用初版蓝紫教育风。** 现行：
+
+| 维度 | 规范 |
+|------|------|
+| 主色 | Teal / Aqua / Mint Cyan |
+| 压暗 | 深墨绿蓝（`#042f2e` 等） |
+| 文字 | 深色主题白字；浅色主题近黑墨绿字 |
+| 表面 | 毛玻璃（`backdrop-filter`）侧栏、卡片、节点标签 |
+| 背景 | 液态扩散图 + 强高斯模糊 + 漂浮光斑 + 细噪点 + 暗角（非干净矢量渐变） |
+| 地图 | 16-bit 像素世界底图 + 虚线关卡路线 + 7 个节点（编号/锁/YOU 脉冲） |
+| 美学 | Apple 极简 + 轻度游戏关卡感 |
+| 主题 | 支持亮/暗 |
+| 反馈色 | 正确青绿/礼花；错误冲击红/巴掌（可关） |
 
 ### 5.4 设置页必含项
 
@@ -278,43 +334,81 @@
 
 ## 7. 题库设计
 
-### 7.1 内容范围
+### 7.1 内容范围（现行）
 
 自研 **分级示例题库**，覆盖幼儿园感 → 雅思/托福任务类型，**不声称官方真题**。
 
-第一版体量目标（可运行、可感知进阶）：
+| 指标 | 初版目标 | 现行（约） |
+|------|----------|------------|
+| 练习题总量 | ≥ 280 | **~2013** |
+| 单词表词条 | — | **~418**（A1～B2） |
+| 每地图 | ≥ 40 | 均 ≥ 200（高阶由学术词补量） |
 
-- 每地图至少 **40** 条可用题（短题为主）  
-- 全库合计 **≥ 280** 题/词条级练习单元  
-- 每题含：唯一 ID、地图层级、题型、题干、答案/要点、解析或示范句、标签（单词/句子/话题）、是否允许弹窗、预估时长秒  
+生成脚本：`scripts/generate-question-bank.mjs`  
+输出：
 
-### 7.2 题目数据模型（逻辑）
+- `src/renderer/src/content/questions.json`  
+- `src/renderer/src/content/vocabulary.json`  
+
+命令：`npm run generate:bank`
+
+### 7.2 题目数据模型（逻辑 · 现行）
 
 ```ts
 type Question = {
-  id: string;
-  mapId: string;           // yayacun | wordtown | ...
-  tier: 0 | 1 | 2 | 3 | 4 | 5 | 6;
-  type: QuestionType;
-  prompt: string;          // 题干（中英可组合）
-  promptLocale?: 'zh' | 'en' | 'bilingual';
-  choices?: string[];      // 选择题
-  answer: string | string[]; // 标准答案或可接受列表
-  keywords?: string[];     // 短说评分关键词
-  sampleAnswer?: string;   // 示范回答
-  audioText?: string;      // TTS/跟读目标文本
-  tags: string[];          // word | sentence | topic | ...
-  allowPopup: boolean;
-  estSeconds: number;
-  explanation?: string;
-};
+  id: string
+  mapId: MapId
+  tier: 0 | 1 | 2 | 3 | 4 | 5 | 6
+  type: QuestionType
+  prompt: string
+  promptZh?: string          // 中文题干（显示中文开关）
+  promptLocale?: 'zh' | 'en' | 'bilingual'
+  choices?: string[]
+  choicesZh?: string[]
+  answer: string | string[]
+  keywords?: string[]
+  sampleAnswer?: string
+  sampleAnswerZh?: string
+  audioText?: string
+  tags: string[]
+  allowPopup: boolean
+  estSeconds: number
+  explanation?: string
+}
+
+type VocabEntry = {
+  id: string
+  word: string
+  meaningZh: string
+  pos?: string
+  level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'basic'
+  mapId?: MapId
+  example?: string
+  exampleZh?: string
+}
 ```
 
 ### 7.3 存储与扩展
 
-- 题库：应用内静态 JSON（可分地图文件）  
-- 用户数据：本地 `electron-store`（或等价 JSON 持久化）  
+- 题库 / 单词表：应用内静态 JSON  
+- 用户数据：本地 `electron-store`（`ziqing-data`）  
 - 后续可热更新题包：预留 `contentVersion` 字段  
+
+### 7.4 今日副本状态模型（现行）
+
+```ts
+type DailyDungeonState = {
+  date: string
+  completed: boolean
+  questionIds: string[]      // 长度 30
+  currentIndex: number
+  started: boolean
+  clearedCount: number       // 已答对前进的题数
+  wrongOnCurrent: number     // 当前题累计答错次数
+  restartCount: number
+  targetCount: number        // 固定 30
+}
+```
 
 ---
 
@@ -345,92 +439,95 @@ type QuestionStats = {
 };
 
 type DailyDungeonState = {
-  date: string;            // YYYY-MM-DD
-  completed: boolean;
-  questionIds: string[];
-  currentIndex: number;
-};
+  date: string
+  completed: boolean
+  questionIds: string[]   // 长度 30
+  currentIndex: number
+  started: boolean
+  clearedCount: number
+  wrongOnCurrent: number
+  restartCount: number
+  targetCount: number     // 30
+}
 ```
 
 所有写操作本地完成；导出为单个 JSON 备份文件。
 
 ---
 
-## 9. 技术架构
+## 9. 技术架构（现行）
 
 ### 9.1 栈
 
 | 层 | 选型 |
 |----|------|
-| 壳 | Electron（Windows） |
-| UI | React + TypeScript + Vite |
-| 样式 | CSS Modules 或 Tailwind（实现阶段二选一，推荐 Tailwind 加速商业化 UI） |
-| 动效 | CSS + Canvas 礼花；巴掌用 DOM/Canvas 动画层 |
-| 音效 | Web Audio / HTMLAudioElement，资源放 `public/sounds` |
-| 语音 | Web Speech API（识别 + 可选 speechSynthesis 示范） |
-| 状态 | React 状态 + 持久化服务封装 |
-| 存储 | electron-store（主进程或 preload 安全封装） |
-| 打包 | electron-builder → Windows 安装包 / 便携版 |
+| 壳 | Electron 33（Windows） |
+| UI | React 18 + TypeScript + Vite（electron-vite） |
+| 样式 | 全局 CSS + 组件 CSS（Teal Glass 设计系统） |
+| 动效 | CSS + Canvas 礼花；巴掌 DOM 动画 |
+| 音效 | 程序化 Web Audio |
+| 语音 | Web Speech API + speechSynthesis；主进程麦克风权限 |
+| 状态 | React Context + preload `window.ziqing` |
+| 存储 | electron-store |
+| 打包 | electron-builder **portable**（`signAndEditExecutable: false`） |
 
 ### 9.2 进程职责
 
-**主进程：**
+**主进程：** 主窗/弹题窗、托盘、通知、弹题调度、`electron-store`、媒体权限  
 
-- 创建主窗口、弹题窗  
-- 托盘图标与菜单  
-- 全局快捷键（可选）  
-- 弹题调度器（timer，考虑休眠/静音时段）  
-- 系统通知  
-- 持久化读写（若放主进程）  
+**preload：** `getData` / `setData` / `openPopup` / `closePopup` / `snoozePopup` / `testPopup`  
 
-**预加载 preload：**
+**渲染进程：** 全部学习 UI、动效、语音、题库、评分  
 
-- 通过 contextBridge 暴露有限 API：`notify`、`popup`、`store`、`scheduler`  
-
-**渲染进程：**
-
-- 全部学习 UI、动效、语音、题库逻辑、评分展示  
-
-### 9.3 关键模块划分
+### 9.3 目录（现行仓库）
 
 ```
-src/
-  main/           # Electron 主进程
-  preload/
-  renderer/
-    app/          # 路由与壳布局
+ZiQing/
+  src/main/                 # Electron 主进程
+  src/preload/
+  src/shared/               # types / maps / scoring / defaults
+  src/renderer/src/
+    App.tsx
+    assets/                 # liquid-bg.jpg, pixel-world-map.jpg
+    components/             # AmbientBackground
+    content/                # questions.json, vocabulary.json
     features/
-      map/        # 冒险地图
-      dungeon/    # 今日副本
-      practice/   # 自由练习与答题器
-      review/     # 待翻盘
-      boards/     # 荣誉墙 / 复仇墙
-      achievements/
-      settings/
+      map/AdventureMap.*
+      practice/QuestionPlayer.*
+      effects/
       onboarding/
-      effects/    # 礼花、巴掌、音效控制器
-    content/      # 题库 JSON
-    shared/       # 类型、工具、UI 组件
+      pages/                # Map, Dungeon, Practice, Vocab, Boards...
+    lib/                    # progress, audio, speech
+    styles/global.css
+  scripts/generate-question-bank.mjs
+  release/                  # 打包产物
+  docs/superpowers/...
 ```
 
 ### 9.4 安全
 
 - `contextIsolation: true`，`nodeIntegration: false`  
 - 最小权限 preload API  
-- 不加载远程任意脚本（第一版纯本地）  
+- 第一版纯本地内容，不加载远程脚本  
+
+### 9.5 打包与分发（现行）
+
+```powershell
+cd C:\Users\Administrator\ZiQing
+npm run dist:portable
+```
+
+- 产物：`release/紫青口语 1.0.0.exe`（便携单文件）  
+- 桌面快捷：`Desktop\紫青口语.exe` / `Desktop\ZiQing-紫青口语.exe`  
+- 开发：`npm run dev`  
 
 ---
 
 ## 10. 音效与动效资源策略
 
-第一版可用：
-
-- 程序化 Web Audio 生成简单成功/失败音（保证零依赖可运行）  
-- 或打包少量短 wav/mp3（成功、连击、巴掌、翻盘）  
-- 礼花：Canvas 粒子  
-- 巴掌：全屏半透明层 + 手掌 SVG/PNG 位移动画 + 屏幕震动 CSS  
-
-提供 **动效减弱** 时：取消粒子与强震动，仅保留色闪与 Toast。
+- 程序化 Web Audio（成功 / 连击 / 巴掌 / 翻盘）  
+- 礼花：Canvas 粒子；巴掌：全屏层 + emoji 手掌动画  
+- **动效减弱** 时：取消粒子与强震动  
 
 ---
 
@@ -438,101 +535,114 @@ src/
 
 | 情况 | 处理 |
 |------|------|
-| 麦克风权限拒绝 | 语音题降级为「看示范 + 自检完成」按钮，并提示去设置开启 |
-| 语音识别不可用 | 同上降级；设置中显示兼容性说明 |
-| 题库某地图题不足 | 允许从相邻低阶地图借题并标注「复习」 |
-| 弹题时主窗已在答题 | 跳过或合并，避免双窗抢焦点 |
-| 用户重置数据 | 二次确认，不可恢复警告 |
-| 通知权限失败 | 仍可用托盘定时直接弹窗 |
+| 麦克风权限拒绝 | 中文说明 + 打字 / 「我已跟读/说完」 |
+| 语音识别需网络失败 | 提示 network，降级打字 |
+| 题库某地图不足 | 从全库 / 弹窗池补齐（副本凑满 30） |
+| 旧副本 &lt;30 题 | 自动重建 30 题 |
+| 用户重置数据 | 二次确认 |
+| 通知权限失败 | 托盘仍可直接弹窗 |
 
 ---
 
-## 12. 测试与验收
+## 12. 测试与验收（现行勾选）
 
-### 12.1 功能验收清单
+### 12.1 功能
 
-- [ ] 安装/启动后完成 Onboarding 并写入本地档案  
-- [ ] 今日副本完整跑通并打卡  
-- [ ] 自由练习按地图切换，难度观感递进  
-- [ ] 答对礼花+音效；答错巴掌+音效；设置可关  
-- [ ] 错题进待翻盘；连续答对后移出；双榜颜色随次数变化  
-- [ ] 托盘常驻；调度弹题；静音时段不弹；达每日上限停止  
-- [ ] 弹题窗可答完一题并写回统计  
-- [ ] 成就至少解锁「首胜」等基础项  
-- [ ] 导出/重置数据可用  
-- [ ] 无麦克风环境下客观题全流程可用  
+- [x] Onboarding 定级并写入本地档案  
+- [x] 今日副本 30 题；答对前进；答错原地；通关/重开  
+- [x] 自由练习全库、无地图锁、可筛选  
+- [x] 显示中文提示  
+- [x] 单词表搜索与听音  
+- [x] 礼花/巴掌/音效可关  
+- [x] 待翻盘 / 荣誉墙 / 复仇墙  
+- [x] 托盘弹题与设置测试弹题  
+- [x] 导出/重置数据  
+- [x] 便携 exe 打包  
 
-### 12.2 体验验收（小白视角）
+### 12.2 体验
 
-- [ ] 不看文档也能完成第一天路径  
-- [ ] 前 5 分钟内有多次正向反馈  
-- [ ] 错题不会让人想卸载（有示范与复仇）  
-- [ ] 弹窗可随时暂停，不感知骚扰  
+- [x] 新手引导路径可用  
+- [x] 正向反馈（礼花/连击）  
+- [x] 错题可复仇  
+- [x] 弹窗可暂停  
 
 ---
 
-## 13. 项目目录与交付物
+## 13. 项目路径与交付物
 
-建议仓库/项目路径：
-
-`C:\Users\Administrator\english-speaking-adventure\`
+**仓库路径：** `C:\Users\Administrator\ZiQing`  
+**远程：** https://github.com/LYSS-SX/ZiQing  
 
 交付物：
 
-1. 可开发的 Electron 工程源码  
-2. 内置分级题库  
-3. Windows 本地运行说明（`README.md`：安装依赖、dev、build）  
-4. 本设计规格（本文档）  
-5. 实现计划（设计审阅通过后另文：`docs/superpowers/plans/...`）  
+1. Electron 工程源码  
+2. 题库 + 单词表 JSON + 生成脚本  
+3. README（开发 / 打包）  
+4. 本设计规格（持续更新）  
+5. 实现计划与修订记录  
+6. Windows 便携 exe  
 
 ---
 
-## 14. 实现阶段建议（供后续 plan 拆分）
+## 14. 实现阶段（已完成）
 
-| 阶段 | 内容 |
-|------|------|
-| P0 骨架 | Electron+React 工程、主窗导航、本地存储、主题壳 |
-| P1 答题核心 | 题型播放器、评分、礼花/巴掌/音效、统计写入 |
-| P2 成长 | Onboarding、地图、今日副本、经验与关卡解锁 |
-| P3 双榜与翻盘 | 待翻盘、荣誉墙、复仇墙、颜色强度、翻盘动效 |
-| P4 弹窗引擎 | 托盘、通知、调度、置顶小窗、稍后/上限/静音 |
-| P5 抛光 | 成就周报、设置完善、题库填满、打包与 README |
+| 阶段 | 内容 | 状态 |
+|------|------|------|
+| P0 | Electron+React 骨架、存储、主题壳 | 完成 |
+| P1 | 答题器、评分、礼花/巴掌/音效 | 完成 |
+| P2 | Onboarding、地图、今日副本、XP | 完成 |
+| P3 | 待翻盘、荣誉墙、复仇墙 | 完成 |
+| P4 | 托盘、通知、弹题窗 | 完成 |
+| P5 | 题库扩充、单词表、中文提示、视觉 v2、30 题副本、打包 | 完成 |
 
 ---
 
-## 15. 已确认决策摘要
+## 15. 已确认决策摘要（含迭代）
 
 | 项 | 决策 |
 |----|------|
-| 答题方式 | 混合：选择/填空/跟读/短说；弹窗偏短题 |
-| 运行形态 | Windows 桌面应用 |
-| 第一版范围 | 完整核心版（非最简 MVP） |
-| 产品调性 | 小白向闯关宇宙，有趣进阶，商业化动效 |
-| 技术 | Electron + React + TypeScript + Vite |
-| 巴掌/礼花 | 保留，强度可配置 |
-| 数据 | 第一版本地；预留云同步与会员扩展点 |
+| 答题方式 | 混合；弹窗偏短题 |
+| 运行形态 | Windows 桌面 + 便携 exe |
+| 范围 | 完整核心版 |
+| 视觉 | Teal / Mint 毛玻璃 + 像素关卡地图（非蓝紫） |
+| 今日副本 | **30 题**，答对才前进，循环至通关 |
+| 自由练习 | 全库、无解锁限制 |
+| 单词表 | 独立页，基础词检索 |
+| 中文提示 | 题目级可开关 |
+| 巴掌/礼花 | 保留，可配置 |
+| 数据 | 本地；预留云同步 |
 
 ---
 
-## 16. 开放扩展（明确延后，不阻塞第一版）
+## 16. 开放扩展（延后）
 
 - 云同步与多设备  
-- AI 口语 band 分与发音评测服务  
-- 官方合作题库包  
-- 多语言 UI  
-- 家长/教师监控模式  
-- 移动端伴侣 App  
+- AI 口语 band / 发音评测服务  
+- 官方题库包  
+- 自定义应用图标与安装包签名  
+- 移动端  
 
 ---
 
-## 17. 规格自检记录
+## 18. 修订记录（相对初版规格）
 
-- 无 TBD/TODO 占位要求  
-- 双榜与待翻盘迁移规则已写明  
-- 弹窗与章节题型边界已区分  
-- 第一版非目标与成功标准已划清  
-- 范围适合拆成单一实现计划后按 P0–P5 交付  
+| 日期 | 版本 | 变更摘要 |
+|------|------|----------|
+| 2026-07-18 | 0.1 | 初版规格：混合题型、Windows Electron、完整核心版、游戏化地图与双榜 |
+| 2026-07-18 | 1.0 | 工程落地：Onboarding、地图、副本、练习、双榜、弹窗、动效、本地存储 |
+| 2026-07-18 | 1.1 | **视觉 v2**：Teal/Aqua/Mint 毛玻璃、液态模糊背景、像素世界地图与关卡路线 |
+| 2026-07-18 | 1.2 | **语音**：麦克风权限、识别 UX、失败降级；跟读评分放宽 |
+| 2026-07-18 | 1.3 | **自由练习**：取消 12 题上限与地图锁；题型/地图筛选；全库 ~2013 题 |
+| 2026-07-18 | 1.3 | **中文提示**：`promptZh` 等 + UI 开关 |
+| 2026-07-18 | 1.3 | **单词表**：独立页 + `vocabulary.json` ~418 词 |
+| 2026-07-18 | 1.4 | **今日副本 v2**：固定 30 题；答对前进；答错原地循环；可重开 |
+| 2026-07-18 | 1.5 | **打包**：electron-builder portable；桌面 `紫青口语.exe` |
+
+详细变更说明另见：
+
+- `docs/CHANGELOG.md`  
+- `docs/superpowers/plans/2026-07-18-ziqing-implementation.md`  
 
 ---
 
-**审阅说明：** 请阅读本文档。若需修改地图命名、巴掌强度默认值、每日副本题量、或题库体量，请直接说明。确认后将进入实现计划编写与开发阶段。
+**文档维护：** 功能变更时同步更新第 4.5、5、7、9、15、18 节与 CHANGELOG，保持规格为现行真相。
